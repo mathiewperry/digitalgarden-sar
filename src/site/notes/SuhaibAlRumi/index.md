@@ -1,27 +1,24 @@
 ---
-{"dg-publish":true,"permalink":"/SuhaibAlRumi/index/","tags":["gardenEntry"],"created":"2025-12-12T20:03:35.541+03:00","updated":"2025-12-13T01:14:22.723+03:00"}
+{"dg-publish":true,"permalink":"/SuhaibAlRumi/index/","tags":["gardenEntry"],"created":"2025-12-12T20:03:35.541+03:00","updated":"2025-12-13T01:33:18.571+03:00"}
 ---
 
-# Hey 👋 , I'm Suhaib, Another human on this planet ! Welcome to small corner of the world where I share some interesting stuff for you to enjoy ! 
+# Hey 👋 , I'm Suhaib, Another human on this planet ! Welcome to my small corner of the world where I share some interesting stuff for you to enjoy ! 
 
-
+---
 
 ## Super-Posts
 📍 Get DynaMed, Annals of IM Journal & Clinical Cases for FREE →  [[SuhaibAlRumi/posts/Free DynaMed and DynaMed Decisions and IBM Micromedex\|Free DynaMed and DynaMed Decisions and IBM Micromedex]]
 
-📍  Get UpToDate for FREE → [[pages/free uptodate\|free uptodate]]
+📍  Get UpToDate for FREE → [[SuhaibAlRumi/posts/free uptodate\|free uptodate]]
 
-📍 Interested in Anki Decks → 
+📍 Interested in Anki Decks → [[SuhaibAlRumi/posts/6th Year Iraqi Ministerial Exam Past Year Questions 2022, 2023, 2024\|6th Year Iraqi Ministerial Exam Past Year Questions 2022, 2023, 2024]]
 
-* * *
+---
 
-Socials
-*   [ORCID](https://orcid.org/0000-0002-0892-6516)
-*   [Linkedin](http://www.linkedin.com/in/itssuhaibalrumi)
-*   [GoodReads](https://www.goodreads.com/itssuhaibalrumi)
-*   [Email](mailto:contact@suhaibalrumi.com)
 
-* * *
+
+---
+ [ORCID](https://orcid.org/0000-0002-0892-6516) |  [Linkedin](http://www.linkedin.com/in/itssuhaibalrumi) |  [GoodReads](https://www.goodreads.com/itssuhaibalrumi) |  [Email](mailto:contact@suhaibalrumi.com)
 
 ```
 Materials from these pages may be used for educational, non-commercial purposes with credit and notification to authors.The content of this site is intended for educational purposes only and is not to be taken as medical advice.
