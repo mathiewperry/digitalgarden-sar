@@ -55,19 +55,28 @@ title: Flashcard Demo
 
 <div id="flashcards">
   <div class="flashcard" onclick="this.classList.toggle('flipped')">
-    <div class="front">Question 1</div>
-    <div class="back">Answer 1</div>
+    <div class="front">How to Dx ? </div>
+    <div class="back">kfsgdhkjfgdkhjfdhsvhbjs dcvbsmhdvchjd
+    sjhdvhjkdvhsbvdjsbv,d
+    dvhbsdljvdsvbd
+    1. dskhjvkdhsjvbd
+    2. 2. bhjkdshvbkdjsvbhdv
+    3. kdlsbvjdvbdvd</div>
   </div>
   <div class="flashcard" onclick="this.classList.toggle('flipped')">
-    <div class="front">Question 2</div>
-    <div class="back">Answer 2</div>
+    <div class="front"> ![image_1748618189739_0.png](/img/user/assets/attachments/image_1748618189739_0.png)  what is this ? </div>
+    <div class="back">here is the answer kjdsbfsdkbvkjsdbvjk</div>
   </div>
 </div>
+
+
+
+![image_1748618189739_0.png](/img/user/assets/attachments/image_1748618189739_0.png) 
 
 <style>
 .flashcard { width: 200px; height: 120px; border: 1px solid #ccc; perspective: 1000px; margin: 10px; cursor: pointer; }
 .flashcard div { width: 100%; height: 100%; backface-visibility: hidden; display:flex; align-items:center; justify-content:center; position:absolute; transition: transform 0.5s; }
-.flashcard .front { background:#f9f9f9; }
+.flashcard .front { background:#000000; }
 .flashcard .back { background:#ffd; transform: rotateY(180deg); }
 .flashcard.flipped .front { transform: rotateY(180deg); }
 .flashcard.flipped .back { transform: rotateY(0deg); }
