@@ -18,138 +18,135 @@ EDITED
 ---
 
 
-<div id="study-area">
-let reviewStats = { again: 0, hard: 0, good: 0, easy: 0 };
-let sessionStart = Date.now();
-
-document.querySelectorAll('#anki-bar button').forEach(btn => {
-  btn.onclick = () => {
-    const grade = btn.dataset.grade;
-    reviewStats[grade] += 1;
-
-    if (grade !== 'again') {
-      index = (index + 1) % total;
-    }
-
-    showCard(index);
-
-    // If last card completed, show stats card
-    if (index === 0 && Object.values(reviewStats).reduce((a,b)=>a+b,0) >= total) {
-      showStats();
-    }
-  };
-});
-
-function showStats() {
-  const sessionEnd = Date.now();
-  const timeSpent = Math.round((sessionEnd - sessionStart)/1000); // in seconds
-
-  const statsDiv = document.createElement('div');
-  statsDiv.id = 'stats-card';
-  statsDiv.innerHTML = `
-    <h3>Review Stats</h3>
-    <p>Total Cards: ${total}</p>
-    <p>Again: ${reviewStats.again}</p>
-    <p>Hard: ${reviewStats.hard}</p>
-    <p>Good: ${reviewStats.good}</p>
-    <p>Easy: ${reviewStats.easy}</p>
-    <p>Time Spent: ${timeSpent} sec</p>
-    <button id="close-stats">Close</button>
-  `;
-  document.getElementById('study-area').appendChild(statsDiv);
-
-  document.getElementById('close-stats').onclick = () => {
-    statsDiv.remove();
-  };
-}
-
+<div id="toolbar" style="margin-bottom:15px; display:flex; gap:10px; flex-wrap:wrap;">
+  <button id="flipAll">Flip All</button>
+  <button id="shuffle">Shuffle</button>
+  <button id="reset">Reset</button>
+  <button id="prev">Prev</button>
+  <button id="next">Next</button>
+  <button id="mark">Mark / Unmark</button>
+  <button id="showAnswers">Show Answers</button>
 </div>
 
-
+<div id="flashcards">
+  <div class="flashcard" data-answered="false" onclick="toggleCard(this)">
+    <div class="front">Question 1</div>
+    <div class="back">Answer 1</div>
+  </div>
+  <div class="flashcard" data-answered="false" onclick="toggleCard(this)">
+    <div class="front">Question 2</div>
+    <div class="back">Answer 2</div>
+  </div>
+  <div class="flashcard" data-answered="false" onclick="toggleCard(this)">
+    <div class="front"> Question 3 Long long long long long ?</div>
+    <div class="back">Answer 3 Long long long long long Long long long long long Long long long long long Long long long long long ?Long long long long long Long long long long long  </div>
+  </div>
+</div>
 
 <style>
-#stats-card {
+#flashcards { display: flex; flex-wrap: wrap; gap: 10px; justify-content: flex-start; }
+.flashcard { 
+  width: calc(33% - 20px); 
+  height: 180px; 
+  border: 2px solid #ccc; 
+  perspective: 1000px; 
+  cursor: pointer; 
   position: relative;
-  border: 2px solid #444;
-  padding: 12px;
-  margin-top: 10px;
-  background: #111;
-  color: #f9f9f9;
-  border-radius: 8px;
+  transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+  display:flex; 
+  align-items:center; 
+  justify-content:center;
 }
-#stats-card h3 {
-  margin: 0 0 8px 0;
-  text-align: center;
+.flashcard:hover { transform: translateY(-5px); box-shadow: 0 8px 20px rgba(0,0,0,0.3); }
+.flashcard div { 
+  width: 100%; height: 100%; backface-visibility: hidden; 
+  display:flex; align-items:center; justify-content:center; text-align:center; 
+  position:absolute; padding: 10px; transition: transform 0.6s cubic-bezier(0.4,0.2,0.2,1); 
+  color: #F9F9F9; font-size: 1em; overflow-wrap: break-word; word-wrap: break-word; line-height: 1.2em;  
 }
-#stats-card button {
-  margin-top: 8px;
-  padding: 6px 10px;
-  cursor: pointer;
+.flashcard .front { background:#000; }
+.flashcard .back { background:#222; transform: rotateY(180deg); }
+.flashcard.flipped .front { transform: rotateY(180deg); }
+.flashcard.flipped .back { transform: rotateY(0deg); }
+.flashcard[data-answered="true"] { border-color: limegreen; }
+.flashcard.marked { border-color: orange; }
+.flashcard.marked::after {
+  content: "★";
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  color: orange;
+  font-size: 1.5em;
 }
 
+@media (max-width: 900px) { .flashcard { width: calc(50% - 20px); } }
+@media (max-width: 600px) { .flashcard { width: 100%; } }
 </style>
-
 
 <script>
 const cards = Array.from(document.querySelectorAll('.flashcard'));
 let index = 0;
 
+// Show one card at a time (slideshow mode)
 function showCard(i) {
-  cards.forEach((c, j) => c.style.display = j === i ? 'block' : 'none');
+  cards.forEach((c, j) => c.style.display = j === i ? 'flex' : 'none');
 }
 showCard(index);
 
+// Toggle flip
 function toggleCard(card) {
   card.classList.toggle('flipped');
-  card.dataset.answered = card.classList.contains('flipped');
+  card.dataset.answered = card.classList.contains('flipped') ? 'true' : 'false';
 }
 
-document.getElementById('next').onclick = () => {
-  index = (index + 1) % cards.length;
-  showCard(index);
-};
+// Toolbar buttons
+document.getElementById('flipAll').addEventListener('click', () => cards.forEach(toggleCard));
 
-document.getElementById('prev').onclick = () => {
+document.getElementById('shuffle').addEventListener('click', () => {
+  const container = document.getElementById('flashcards');
+  for (let i = container.children.length; i >= 0; i--) {
+    container.appendChild(container.children[Math.random() * i | 0]);
+  }
+});
+
+document.getElementById('reset').addEventListener('click', () => {
+  cards.forEach(c => {
+    c.classList.remove('flipped');
+    c.dataset.answered = 'false';
+    c.classList.remove('marked');
+  });
+});
+
+document.getElementById('prev').addEventListener('click', () => {
   index = (index - 1 + cards.length) % cards.length;
   showCard(index);
-};
+});
 
-document.getElementById('mark').onclick = () => {
-  const visible = cards.find(c => c.style.display !== 'none');
-  if (visible) visible.classList.toggle('marked');
-};
-
-document.getElementById('flipAll').onclick = () =>
-  cards.forEach(c => c.classList.toggle('flipped'));
-
-document.getElementById('shuffle').onclick = () => {
-  cards.sort(() => Math.random() - 0.5);
-  cards.forEach(c => document.getElementById('flashcards').appendChild(c));
-  index = 0;
+document.getElementById('next').addEventListener('click', () => {
+  index = (index + 1) % cards.length;
   showCard(index);
-};
+});
 
-document.getElementById('showAnswers').onclick = () =>
-  cards.forEach(c => c.classList.add('flipped'));
+// Fixed Mark / Unmark
+document.getElementById('mark').addEventListener('click', () => {
+  const visibleCard = cards.find(c => c.style.display !== 'none');
+  if (visibleCard) visibleCard.classList.toggle('marked');
+});
 
-document.getElementById('reset').onclick = () =>
-  cards.forEach(c => {
-    c.classList.remove('flipped','marked');
-    c.dataset.answered = false;
-  });
+document.getElementById('showAnswers').addEventListener('click', () => cards.forEach(c => c.classList.add('flipped')));
 
-// Keyboard
+// Keyboard support
 document.addEventListener('keydown', e => {
-  if (e.key === 'ArrowRight') document.getElementById('next').click();
-  if (e.key === 'ArrowLeft') document.getElementById('prev').click();
-  if (e.key === ' ') { toggleCard(cards[index]); e.preventDefault(); }
+  if(e.key === ' ') { cards.forEach(toggleCard); e.preventDefault(); }
+  if(e.key === 'ArrowRight') { index = (index + 1) % cards.length; showCard(index); }
+  if(e.key === 'ArrowLeft') { index = (index - 1 + cards.length) % cards.length; showCard(index); }
 });
 </script>
 
 
 
-----
-## Learn more
+
+
 
 
 
