@@ -2,7 +2,120 @@
 {"dg-publish":true,"permalink":"/draft/"}
 ---
 
-EDITED 
+
+<style>
+  /* 1. Header Container */
+  .cool-header {
+    position: sticky; /* Stays at top */
+    top: 0;
+    z-index: 1000; /* Stays on top of other content */
+    background: rgba(17, 17, 17, 0.95); /* Dark semi-transparent */
+    backdrop-filter: blur(10px); /* Blur effect */
+    border-bottom: 4px solid transparent;
+    border-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%) 1; /* Matching Gradient */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+  }
+
+  .header-inner {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px; /* Fixed height */
+  }
+
+  /* 2. Logo Styling */
+  .header-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-logo img {
+    height: 40px; /* Slightly smaller than footer */
+    transition: transform 0.3s ease;
+  }
+
+  .header-logo:hover img {
+    transform: scale(1.05);
+  }
+
+  /* 3. Navigation Links */
+  .nav-menu {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-link {
+    text-decoration: none;
+    color: #e0e0e0;
+    font-weight: 500;
+    font-size: 1rem;
+    position: relative;
+    padding: 5px 0;
+    transition: color 0.3s;
+  }
+
+  /* Cool Underline Animation */
+  .nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    transition: width 0.3s ease;
+  }
+
+  .nav-link:hover {
+    color: #fff;
+  }
+
+  .nav-link:hover::after {
+    width: 100%; /* Expands on hover */
+  }
+
+  /* 4. Mobile Responsiveness */
+  @media (max-width: 600px) {
+    .header-inner {
+      flex-direction: column;
+      height: auto;
+      padding: 15px 0;
+      gap: 15px;
+    }
+    
+    .nav-menu {
+      gap: 20px;
+      font-size: 0.9rem;
+    }
+  }
+</style>
+
+<header class="cool-header">
+  <div class="header-inner">
+    
+    <a href="index.html" class="header-logo">
+      <img src="website-archive/suhaibalrumi-logo-2025.png" alt="Suhaib Alrumi Logo">
+    </a>
+
+    <ul class="nav-menu">
+      <li><a href="#" class="nav-link">Home</a></li>
+      <li><a href="#" class="nav-link">About</a></li>
+      <li><a href="#" class="nav-link">Portfolio</a></li>
+      <li><a href="mailto:contact@suhaibalrumi.com" class="nav-link">Contact</a></li>
+    </ul>
+
+  </div>
+</header>
+
+
+
 
 
 
