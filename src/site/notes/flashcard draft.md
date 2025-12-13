@@ -12,59 +12,32 @@
 
 ---
 
-
-<div id="flashcards-container"></div>
-
-<script>
-// List your questions and answers here
-const flashcardsData = [
-  { question: "What is the capital of France?", answer: "Parisljkdbkfldbvkdjvkjdkbvkjdvbdjbvkjdbvjdkbvjd
-  dvmbdjkvjdbvjdkbkvjdvbkdjbv
-  djbkdjbvjdbkjvdbvjkdbjkv
-  djkbvbdkbvdbvjkdbvkjdbvkjd" },
-  { question: "2 + 2 = ?", answer: "4" },
-  { question: "Largest planet in the solar system?", answer: "Jupiter" }
-];
-
-// Create flashcards automatically
-const container = document.getElementById("flashcards-container");
-
-flashcardsData.forEach(item => {
-  const card = document.createElement("div");
-  card.className = "flashcard";
-  card.onclick = () => card.classList.toggle("flipped");
-
-  const front = document.createElement("div");
-  front.className = "front";
-  front.textContent = item.question;
-
-  const back = document.createElement("div");
-  back.className = "back";
-  back.textContent = item.answer;
-
-  card.appendChild(front);
-  card.appendChild(back);
-  container.appendChild(card);
-});
-</script>
+<div id="flashcards">
+  <div class="flashcard" onclick="this.classList.toggle('flipped')">
+    <div class="front">Question 1 ? </div>
+    <div class="back">Answer 1 ksksjkdhsjkdhsj
+    jsdsjkdhshdkjsh
+    sjbdsjdksjdjkshd
+    sbdsjkbdjksbdkjsbdjks
+    skjbdsjdksjbdjsbkdjsbdkjsdjjs
+    sjkdbskjbdjksbcjsbckjsbcjs
+    sjkbskcskcbjscbkjs</div>
+  </div>
+  <div class="flashcard" onclick="this.classList.toggle('flipped')">
+    <div class="front">Question 2</div>
+    <div class="back">Answer 2</div>
+  </div>
+</div>
 
 <style>
-#flashcards-container { display:flex; flex-wrap:wrap; }
-.flashcard {
-  width: 200px; height: 120px; border:1px solid #ccc; margin:10px;
-  perspective: 1000px; cursor:pointer; position:relative;
-}
-.flashcard div {
-  width:100%; height:100%; position:absolute; backface-visibility:hidden;
-  display:flex; align-items:center; justify-content:center;
-  transition: transform 0.5s;
-}
-.flashcard .front { background:#f9f9f9; }
-.flashcard .back { background:#ffd; transform: rotateY(180deg); }
+.flashcard { width: 300px; height: 180px; border: 1px solid #ccc; perspective: 1000px; margin: 10px; cursor: pointer; }
+.flashcard div { width: 100%; height: 100%; backface-visibility: hidden; display:flex; align-items:center; justify-content:left; text-align: left; position:absolute; padding: 10px; transition: transform 0.3s; color: #F9F9F9; font-size: 1em; overflow-wrap: break-word; word-wrap: break-word; line-height: 1.2em;  }
+.flashcard .front { background:#000000; }
+.flashcard .back { background:#222222; transform: rotateY(180deg); }
 .flashcard.flipped .front { transform: rotateY(180deg); }
 .flashcard.flipped .back { transform: rotateY(0deg); }
+#flashcards { display:flex; flex-wrap:wrap; justify-content: flex-start; }
 </style>
-
 
 
 
