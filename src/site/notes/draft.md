@@ -19,105 +19,72 @@ EDITED
 
 
 <div id="study-area">
+let reviewStats = { again: 0, hard: 0, good: 0, easy: 0 };
+let sessionStart = Date.now();
 
-  <button id="prev" class="side-btn left">◀</button>
+document.querySelectorAll('#anki-bar button').forEach(btn => {
+  btn.onclick = () => {
+    const grade = btn.dataset.grade;
+    reviewStats[grade] += 1;
 
-  <div id="flashcards">
-    <div class="flashcard" data-answered="false" onclick="toggleCard(this)">
-      <div class="front">Question 1</div>
-      <div class="back">Answer 1</div>
-    </div>
-    <div class="flashcard" data-answered="false" onclick="toggleCard(this)">
-      <div class="front">Question 2</div>
-      <div class="back">Answer 2</div>
-    </div>
-    <div class="flashcard" data-answered="false" onclick="toggleCard(this)">
-      <div class="front">Question 3</div>
-      <div class="back">Answer 3</div>
-    </div>
-  </div>
+    if (grade !== 'again') {
+      index = (index + 1) % total;
+    }
 
-  <button id="next" class="side-btn right">▶</button>
+    showCard(index);
 
-</div>
+    // If last card completed, show stats card
+    if (index === 0 && Object.values(reviewStats).reduce((a,b)=>a+b,0) >= total) {
+      showStats();
+    }
+  };
+});
 
-<div id="toolbar">
-  <button id="flipAll">Flip</button>
-  <button id="mark">★ Mark</button>
-  <button id="shuffle">Shuffle</button>
-  <button id="showAnswers">Show Answers</button>
-  <button id="reset">Reset</button>
+function showStats() {
+  const sessionEnd = Date.now();
+  const timeSpent = Math.round((sessionEnd - sessionStart)/1000); // in seconds
+
+  const statsDiv = document.createElement('div');
+  statsDiv.id = 'stats-card';
+  statsDiv.innerHTML = `
+    <h3>Review Stats</h3>
+    <p>Total Cards: ${total}</p>
+    <p>Again: ${reviewStats.again}</p>
+    <p>Hard: ${reviewStats.hard}</p>
+    <p>Good: ${reviewStats.good}</p>
+    <p>Easy: ${reviewStats.easy}</p>
+    <p>Time Spent: ${timeSpent} sec</p>
+    <button id="close-stats">Close</button>
+  `;
+  document.getElementById('study-area').appendChild(statsDiv);
+
+  document.getElementById('close-stats').onclick = () => {
+    statsDiv.remove();
+  };
+}
+
 </div>
 
 
 
 <style>
-#study-area {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 15px;
-  margin-bottom: 15px;
-}
-
-#flashcards {
-  width: 320px;
-  height: 200px;
+#stats-card {
   position: relative;
-}
-
-.flashcard {
-  width: 100%;
-  height: 100%;
-  border: 2px solid #ccc;
-  perspective: 1000px;
-  cursor: pointer;
-  position: relative;
-}
-
-.flashcard div {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  border: 2px solid #444;
   padding: 12px;
-  transition: transform 0.6s cubic-bezier(0.4,0.2,0.2,1);
+  margin-top: 10px;
+  background: #111;
   color: #f9f9f9;
+  border-radius: 8px;
 }
-
-.front { background: #000; }
-.back  { background: #222; transform: rotateY(180deg); }
-
-.flashcard.flipped .front { transform: rotateY(180deg); }
-.flashcard.flipped .back  { transform: rotateY(0deg); }
-
-.flashcard.marked {
-  border-color: orange;
+#stats-card h3 {
+  margin: 0 0 8px 0;
+  text-align: center;
 }
-.flashcard.marked::after {
-  content: "★";
-  position: absolute;
-  top: 6px;
-  right: 10px;
-  color: orange;
-  font-size: 1.4em;
-}
-
-.side-btn {
-  font-size: 1.5em;
-  padding: 10px 14px;
+#stats-card button {
+  margin-top: 8px;
+  padding: 6px 10px;
   cursor: pointer;
-}
-
-#toolbar {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-  flex-wrap: wrap;
 }
 
 </style>
