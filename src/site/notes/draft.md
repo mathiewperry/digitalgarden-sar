@@ -499,6 +499,185 @@ document.addEventListener('keydown', e => {
 </script>
 
 
+----
+## chat gpt 2 
+
+
+<div id="toolbar" style="margin-bottom:15px; display:flex; gap:10px; flex-wrap:wrap;">
+  <button id="flipAll">Flip All</button>
+  <button id="shuffle">Shuffle</button>
+  <button id="reset">Reset</button>
+  <button id="prev">Prev</button>
+  <button id="next">Next</button>
+  <button id="mark">Mark / Unmark</button>
+  <button id="showAnswers">Show Answers</button>
+</div>
+
+<div id="flashcards">
+  <div class="flashcard" data-answered="false" data-correct="false" onclick="toggleCard(this)">
+    <div class="front">Question 1</div>
+    <div class="back">Answer 1</div>
+  </div>
+  <div class="flashcard" data-answered="false" data-correct="false" onclick="toggleCard(this)">
+    <div class="front">Question 2</div>
+    <div class="back">Answer 2</div>
+  </div>
+  <div class="flashcard" data-answered="false" data-correct="false" onclick="toggleCard(this)">
+    <div class="front">Question 3 Long long long long long ?</div>
+    <div class="back">Answer 3 Long long long long long Long long long long long Long long long long long Long long long long long ? Long long long long long Long long long long long</div>
+  </div>
+</div>
+
+<div id="cardButtons" style="margin-top:10px; display:flex; gap:10px;">
+  <button id="correctBtn">Correct</button>
+  <button id="incorrectBtn">Incorrect</button>
+</div>
+
+<div id="stats" style="margin-top:15px; padding:10px; border:1px solid #ccc; width:fit-content; display:none;"></div>
+
+<style>
+#flashcards { display: flex; flex-wrap: wrap; gap: 10px; justify-content: flex-start; }
+.flashcard { 
+  width: 100%; 
+  height: 180px; 
+  border: 2px solid #ccc; 
+  perspective: 1000px; 
+  cursor: pointer; 
+  position: relative;
+  transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+  display:flex; 
+  align-items:center; 
+  justify-content:center;
+}
+.flashcard div { 
+  width: 100%; height: 100%; backface-visibility: hidden; 
+  display:flex; align-items:center; justify-content:center; text-align:center; 
+  position:absolute; padding: 10px; transition: transform 0.6s cubic-bezier(0.4,0.2,0.2,1); 
+  color: #F9F9F9; font-size: 1em; overflow-wrap: break-word; word-wrap: break-word; line-height: 1.2em;  
+}
+.flashcard .front { background:#000; }
+.flashcard .back { background:#222; transform: rotateY(180deg); }
+.flashcard.flipped .front { transform: rotateY(180deg); }
+.flashcard.flipped .back { transform: rotateY(0deg); }
+.flashcard[data-answered="true"][data-correct="true"] { border-color: limegreen; }
+.flashcard[data-answered="true"][data-correct="false"] { border-color: crimson; }
+.flashcard.marked { border-color: red; }
+.flashcard.marked::after {
+  content: "★";
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  color: red;
+  font-size: 1.5em;
+}
+</style>
+
+<script>
+const cards = Array.from(document.querySelectorAll('.flashcard'));
+let index = 0;
+let startTime = Date.now();
+let totalCorrect = 0;
+let totalIncorrect = 0;
+
+// Show one card at a time (slideshow)
+function showCard(i) {
+  cards.forEach((c, j) => c.style.display = j === i ? 'flex' : 'none');
+}
+showCard(index);
+
+// Toggle flip
+function toggleCard(card) {
+  card.classList.toggle('flipped');
+}
+
+// Toolbar buttons
+document.getElementById('flipAll').addEventListener('click', () => cards.forEach(c => c.classList.toggle('flipped')));
+document.getElementById('shuffle').addEventListener('click', () => {
+  const container = document.getElementById('flashcards');
+  for (let i = container.children.length; i >= 0; i--) {
+    container.appendChild(container.children[Math.random() * i | 0]);
+  }
+  index = 0;
+  showCard(index);
+});
+document.getElementById('reset').addEventListener('click', () => {
+  cards.forEach(c => {
+    c.classList.remove('flipped', 'marked');
+    c.dataset.answered = 'false';
+    c.dataset.correct = 'false';
+  });
+  index = 0;
+  totalCorrect = 0;
+  totalIncorrect = 0;
+  startTime = Date.now();
+  showCard(index);
+  document.getElementById('stats').style.display = 'none';
+});
+document.getElementById('prev').addEventListener('click', () => {
+  index = (index - 1 + cards.length) % cards.length;
+  showCard(index);
+});
+document.getElementById('next').addEventListener('click', () => {
+  index = (index + 1) % cards.length;
+  showCard(index);
+});
+document.getElementById('mark').addEventListener('click', () => {
+  const visibleCard = cards.find(c => c.style.display !== 'none');
+  if (visibleCard) visibleCard.classList.toggle('marked');
+});
+document.getElementById('showAnswers').addEventListener('click', () => cards.forEach(c => c.classList.add('flipped')));
+
+// Correct / Incorrect buttons
+document.getElementById('correctBtn').addEventListener('click', () => handleAnswer(true));
+document.getElementById('incorrectBtn').addEventListener('click', () => handleAnswer(false));
+
+function handleAnswer(isCorrect) {
+  const visibleCard = cards.find(c => c.style.display !== 'none');
+  if (!visibleCard) return;
+  visibleCard.dataset.answered = 'true';
+  visibleCard.dataset.correct = isCorrect ? 'true' : 'false';
+  visibleCard.classList.add('flipped'); // flip to show answer
+  if (isCorrect) totalCorrect++; else totalIncorrect++;
+  nextCard();
+  checkAllAnswered();
+}
+
+function nextCard() {
+  index = (index + 1) % cards.length;
+  showCard(index);
+}
+
+// Keyboard support
+document.addEventListener('keydown', e => {
+  if(e.key === ' ') { toggleCard(cards[index]); e.preventDefault(); }
+  if(e.key === 'ArrowRight') { nextCard(); }
+  if(e.key === 'ArrowLeft') { index = (index - 1 + cards.length) % cards.length; showCard(index); }
+  if(e.key === 'm') { document.getElementById('mark').click(); }
+});
+
+// Check all cards and show stats
+function checkAllAnswered() {
+  const allAnswered = cards.every(c => c.dataset.answered === 'true');
+  if (allAnswered) {
+    const total = cards.length;
+    const marked = cards.filter(c => c.classList.contains('marked')).length;
+    const timeSpent = Math.floor((Date.now() - startTime)/1000);
+    const minutes = Math.floor(timeSpent/60);
+    const seconds = timeSpent % 60;
+    const statsDiv = document.getElementById('stats');
+    statsDiv.innerHTML = `
+      <strong>Review Finished!</strong><br>
+      Total Cards: ${total}<br>
+      Correct: ${totalCorrect}<br>
+      Incorrect: ${totalIncorrect}<br>
+      Marked: ${marked}<br>
+      Time Spent: ${minutes}m ${seconds}s
+    `;
+    statsDiv.style.display = 'block';
+  }
+}
+</script>
+
 
 
 
