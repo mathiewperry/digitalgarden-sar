@@ -14,26 +14,22 @@
 📍 Interested in Anki Decks → [[SuhaibAlRumi/posts/6th Year Iraqi Ministerial Exam Past Year Questions 2022, 2023, 2024\|6th Year Iraqi Ministerial Exam Past Year Questions 2022, 2023, 2024]]
 
 
----
-<!-- Footer Container -->
+
 <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 40px; border-top: 1px solid #ccc; padding-top: 20px;">
 
-  <!-- Left: Logo -->
   <div style="flex: 1;">
     <div> 
-    ![Logo](/img/user/assets/archive/sar/website-archive/suhaibalrumi-logo-2025.png)
-    " alt="Logo" style="height: 50px;">
+      <img src="website-archive/suhaibalrumi-logo-2025.png" alt="Logo" style="height: 50px;">
     </div> 
   </div>
 
-  <!-- Right: Socials -->
   <div style="flex: 1; text-align: right;">
     <a href="mailto:contact@suhaibalrumi.com" target="_blank">Email</a> |
     <a href="http://www.linkedin.com/in/itssuhaibalrumi" target="_blank">Linkedin</a> |
     <a href="https://orcid.org/0000-0002-0892-6516" target="_blank">ORCID</a>
   </div>
-</div>
 
+</div>
 ---
 ```
 Materials from these pages may be used for educational, non-commercial purposes with credit and notification to authors.The content of this site is intended for educational purposes only and is not to be taken as medical advice.
