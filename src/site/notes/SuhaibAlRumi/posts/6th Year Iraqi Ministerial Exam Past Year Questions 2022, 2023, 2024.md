@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/SuhaibAlRumi/posts/6th Year Iraqi Ministerial Exam Past Year Questions 2022, 2023, 2024/","created":"2025-12-13T01:22:38.362+03:00","updated":"2025-12-13T01:24:52.236+03:00"}
+{"dg-publish":true,"permalink":"/SuhaibAlRumi/posts/6th Year Iraqi Ministerial Exam Past Year Questions 2022, 2023, 2024/"}
 ---
 
 

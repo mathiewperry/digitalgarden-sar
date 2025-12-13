@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/SuhaibAlRumi/posts/free uptodate/","created":"2025-02-02T01:27:52.000+03:00","updated":"2025-12-13T01:14:04.059+03:00"}
+{"dg-publish":true,"permalink":"/SuhaibAlRumi/posts/free uptodate/"}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/SuhaibAlRumi/index/","title":["Home"],"tags":["gardenEntry"],"created":"2025-12-12T20:03:35.541+03:00","updated":"2025-12-13T01:49:12.629+03:00"}
+{"dg-publish":true,"permalink":"/SuhaibAlRumi/index/","title":["home"],"tags":["gardenEntry"]}
 ---
 
 # Hey 👋 , I'm Suhaib, Another human on this planet ! Welcome to my small corner of the world where I share some interesting stuff for you to enjoy ! 

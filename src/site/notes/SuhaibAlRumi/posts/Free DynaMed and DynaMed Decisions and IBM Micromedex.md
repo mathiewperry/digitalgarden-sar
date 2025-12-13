@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/SuhaibAlRumi/posts/Free DynaMed and DynaMed Decisions and IBM Micromedex/","title":["Free DynaMed, DynaMed Decisions and IBM Micromedex Access !"],"created":"2025-02-02T00:20:34.000+03:00","updated":"2025-12-13T01:13:11.754+03:00"}
+{"dg-publish":true,"permalink":"/SuhaibAlRumi/posts/Free DynaMed and DynaMed Decisions and IBM Micromedex/","title":["Free DynaMed, DynaMed Decisions and IBM Micromedex Access !"]}
 ---
 
 
