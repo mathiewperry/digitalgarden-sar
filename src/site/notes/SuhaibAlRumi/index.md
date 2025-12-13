@@ -20,7 +20,10 @@
 
   <!-- Left: Logo -->
   <div style="flex: 1;">
-    <img src="'/Users/suhaibalrumi/Sync/sar vault/assets/archive/sar/website archive/suhaibalrumi logo 2025.png'" alt="Logo" style="height: 50px;">
+    <div> 
+    ![Logo](/img/user/assets/archive/sar/website-archive/suhaibalrumi-logo-2025.png)
+    " alt="Logo" style="height: 50px;">
+    </div> 
   </div>
 
   <!-- Right: Socials -->
