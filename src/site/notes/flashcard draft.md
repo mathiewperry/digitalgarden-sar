@@ -12,47 +12,6 @@
 
 ---
 
-:::flashcards
-
-
----
-here is a question 1 ? 
-<details><summary>Reveal Answer</summary>
-Here is the answer 1 
-![flashcard draft-test.png](/img/user/assets/attachments/flashcard%20draft-test.png)
-
-
-|table     |  1    |
-| --- | --- |
-| s    |  s   |
-
-</details>
-
----
-##### here is question 2 ?
-?
-here is answer 2 
-
----
-this is question 3 ? 
-?
-this is answer 3 
-
----
-this is question 4 reversed ? 
-??
-this is answer 4 
-
----
-:::
-
-----
-## Learn more
-
----
-title: Flashcard Demo
----
-
 
 <div id="flashcards-container"></div>
 
@@ -105,12 +64,6 @@ flashcardsData.forEach(item => {
 .flashcard.flipped .front { transform: rotateY(180deg); }
 .flashcard.flipped .back { transform: rotateY(0deg); }
 </style>
-
-
----
-## Footnotes
-
-
 
 
 
