@@ -13,27 +13,32 @@
 
 
 ---
-
 <div id="study-area">
+  <div id="flashcard-container">
+    <div id="flashcards">
+      <div class="flashcard">
+        <div class="front">Question 1</div>
+        <div class="back">Answer 1</div>
+      </div>
 
-  <div id="flashcards">
-    <div class="flashcard">
-      <div class="front">Question 1</div>
-      <div class="back">Answer 1</div>
-    </div>
+      <div class="flashcard">
+        <div class="front">Question 2</div>
+        <div class="back">Answer 2</div>
+      </div>
 
-    <div class="flashcard">
-      <div class="front">Question 2</div>
-      <div class="back">Answer 2</div>
-    </div>
-
-    <div class="flashcard">
-      <div class="front">Question 3</div>
-      <div class="back">Answer 3</div>
+      <div class="flashcard">
+        <div class="front">Question 3</div>
+        <div class="back">Answer 3</div>
+      </div>
     </div>
   </div>
 
   <div id="progress">1 / 3</div>
+
+  <div id="nav-buttons">
+    <button id="prev">Previous</button>
+    <button id="next">Next</button>
+  </div>
 
   <div id="anki-bar">
     <button data-grade="again">Again</button>
@@ -47,9 +52,7 @@
     <button id="flip">Flip</button>
     <button id="reset">Reset</button>
   </div>
-
 </div>
-
 
 
 <style>
@@ -59,11 +62,18 @@
   text-align: center;
 }
 
-#flashcards {
-  position: relative;
+#flashcard-container {
   width: 100%;
-  height: 200px;
+  height: 200px; /* fixed height to prevent overlapping */
+  perspective: 1000px;
+  position: relative;
   margin-bottom: 10px;
+}
+
+#flashcards {
+  width: 100%;
+  height: 100%;
+  position: relative;
 }
 
 .flashcard {
@@ -71,9 +81,11 @@
   height: 100%;
   border: 2px solid #ccc;
   border-radius: 8px;
-  perspective: 1000px;
   cursor: pointer;
   display: none;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+  z-index: 1; /* prevent overlapping buttons */
 }
 
 .flashcard.active {
@@ -92,7 +104,6 @@
   color: #f9f9f9;
   font-size: 1em;
   line-height: 1.3em;
-  transition: transform 0.5s ease;
 }
 
 .front {
@@ -104,12 +115,8 @@
   transform: rotateY(180deg);
 }
 
-.flashcard.flipped .front {
+.flashcard.flipped {
   transform: rotateY(180deg);
-}
-
-.flashcard.flipped .back {
-  transform: rotateY(0deg);
 }
 
 .flashcard.marked {
@@ -125,9 +132,18 @@
   color: orange;
 }
 
+#nav-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 10px 0;
+  z-index: 2;
+  position: relative;
+}
+
 #progress {
   font-weight: bold;
-  margin: 8px 0;
+  margin: 5px 0;
 }
 
 #anki-bar,
@@ -136,11 +152,6 @@
   justify-content: center;
   gap: 10px;
   margin-top: 8px;
-}
-
-button {
-  padding: 6px 10px;
-  cursor: pointer;
 }
 
 </style>
@@ -161,19 +172,15 @@ function showCard(i) {
     c.classList.toggle('marked', !!marked[j]);
     c.classList.remove('flipped');
   });
-
-  document.getElementById('progress').textContent =
-    `${i + 1} / ${total}`;
-
+  document.getElementById('progress').textContent = `${i + 1} / ${total}`;
   localStorage.setItem('index', i);
   localStorage.setItem('marked', JSON.stringify(marked));
 }
 
-cards.forEach(card => {
-  card.addEventListener('click', () =>
-    card.classList.toggle('flipped')
-  );
-});
+// Card flip
+cards.forEach(c =>
+  c.addEventListener('click', () => c.classList.toggle('flipped'))
+);
 
 document.getElementById('flip').onclick = () =>
   cards[index].classList.toggle('flipped');
@@ -188,7 +195,7 @@ document.getElementById('reset').onclick = () => {
   location.reload();
 };
 
-// Anki-style grading
+// Anki grading
 document.querySelectorAll('#anki-bar button').forEach(btn => {
   btn.onclick = () => {
     if (btn.dataset.grade !== 'again') {
@@ -198,15 +205,24 @@ document.querySelectorAll('#anki-bar button').forEach(btn => {
   };
 });
 
+// Next / Previous buttons
+document.getElementById('next').onclick = () => {
+  index = (index + 1) % total;
+  showCard(index);
+};
+
+document.getElementById('prev').onclick = () => {
+  index = (index - 1 + total) % total;
+  showCard(index);
+};
+
 // Keyboard navigation
 document.addEventListener('keydown', e => {
   if (e.key === 'ArrowRight') {
-    index = (index + 1) % total;
-    showCard(index);
+    index = (index + 1) % total; showCard(index);
   }
   if (e.key === 'ArrowLeft') {
-    index = (index - 1 + total) % total;
-    showCard(index);
+    index = (index - 1 + total) % total; showCard(index);
   }
   if (e.key === ' ') {
     e.preventDefault();
@@ -214,7 +230,7 @@ document.addEventListener('keydown', e => {
   }
 });
 
-// Swipe navigation
+// Swipe support
 let startX = 0;
 const threshold = 50;
 const area = document.getElementById('flashcards');
@@ -235,7 +251,7 @@ area.addEventListener('touchend', e => {
   showCard(index);
 });
 
-// Init
+// Initialize
 showCard(index);
 </script>
 
