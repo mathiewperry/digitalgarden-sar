@@ -1,0 +1,17 @@
+.flashcard {
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 1rem 0;
+  background: var(--background-primary);
+}
+
+.fc-btn {
+  margin-top: 0.5rem;
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+}
+
+.fc-answer.hidden {
+  display: none;
+}
