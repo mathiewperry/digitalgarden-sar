@@ -15,27 +15,22 @@
 ---
 
 
-
 <div id="study-area">
-
-  <button id="prev" class="nav-btn">« Prev</button>
 
   <div id="flashcards">
     <div class="flashcard">
-      <div class="front">This is a long long long long long long long long long Question ? </div>
-      <div class="back">1 here is a long  long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long answer  </div>
+      <div class="front">Question 1</div>
+      <div class="back">Answer 1</div>
     </div>
     <div class="flashcard">
-      <div class="front">Question 2 ? </div>
-      <div class="back">Answer 2 with a url visit : https://chatgpt.com/c/693dcc40-0260-8326-b411-ff06356a9c24</div>
+      <div class="front">Question 2</div>
+      <div class="back">Answer 2</div>
     </div>
     <div class="flashcard">
       <div class="front">Question 3</div>
       <div class="back">Answer 3</div>
     </div>
   </div>
-
-  <button id="next" class="nav-btn">Next »</button>
 
 </div>
 
@@ -57,12 +52,9 @@
 
 <style>
 #study-area {
-  display: grid;
-  grid-template-columns: auto 1fr auto;
-  align-items: center;
-  max-width: 420px;
-  margin: 0 auto;
-  gap: 10px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
 }
 
 #flashcards {
@@ -109,17 +101,10 @@
   font-size: 1.4em;
 }
 
-.nav-btn {
-  font-size: 0.95rem;
-  padding: 6px 10px;
-  cursor: pointer;
-  white-space: nowrap;
-}
-
 #progress {
   text-align: center;
-  margin: 10px 0;
   font-weight: bold;
+  margin: 10px 0;
 }
 
 #anki-bar, #toolbar {
@@ -128,7 +113,6 @@
   gap: 10px;
   margin-top: 10px;
 }
-
 
 </style>
 
@@ -154,29 +138,20 @@ cards.forEach(c =>
   c.addEventListener('click', () => c.classList.toggle('flipped'))
 );
 
-document.getElementById('next').onclick = () => {
-  index = (index + 1) % total;
-  showCard(index);
-};
-
-document.getElementById('prev').onclick = () => {
-  index = (index - 1 + total) % total;
-  showCard(index);
-};
+document.getElementById('flip').onclick = () =>
+  cards[index].classList.toggle('flipped');
 
 document.getElementById('mark').onclick = () => {
   marked[index] = !marked[index];
   showCard(index);
 };
 
-document.getElementById('flip').onclick = () =>
-  cards[index].classList.toggle('flipped');
-
 document.getElementById('reset').onclick = () => {
   localStorage.clear();
   location.reload();
 };
 
+// Anki grading
 document.querySelectorAll('#anki-bar button').forEach(btn => {
   btn.onclick = () => {
     if (btn.dataset.grade !== 'again') {
@@ -186,14 +161,41 @@ document.querySelectorAll('#anki-bar button').forEach(btn => {
   };
 });
 
+// Keyboard navigation
 document.addEventListener('keydown', e => {
-  if (e.key === 'ArrowRight') document.getElementById('next').click();
-  if (e.key === 'ArrowLeft') document.getElementById('prev').click();
+  if (e.key === 'ArrowRight') { index = (index + 1) % total; showCard(index); }
+  if (e.key === 'ArrowLeft')  { index = (index - 1 + total) % total; showCard(index); }
   if (e.key === ' ') { cards[index].click(); e.preventDefault(); }
+});
+
+// Swipe support
+let startX = 0;
+const threshold = 50;
+const area = document.getElementById('flashcards');
+
+area.addEventListener('mousedown', e => startX = e.clientX);
+area.addEventListener('mouseup', e => {
+  const dx = e.clientX - startX;
+  if (dx > threshold) index = (index + 1) % total;
+  if (dx < -threshold) index = (index - 1 + total) % total;
+  showCard(index);
+});
+
+area.addEventListener('touchstart', e => startX = e.touches[0].clientX);
+area.addEventListener('touchend', e => {
+  const dx = e.changedTouches[0].clientX - startX;
+  if (dx > threshold) index = (index + 1) % total;
+  if (dx < -threshold) index = (index - 1 + total) % total;
+  showCard(index);
 });
 
 showCard(index);
 </script>
+
+
+
+
+
 
 
 
