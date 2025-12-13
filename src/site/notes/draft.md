@@ -14,6 +14,9 @@ EDITED
 > - 
 
 ---
+
+
+
 <div id="toolbar" style="margin-bottom:15px; display:flex; gap:10px; flex-wrap:wrap;">
   <button id="flipAll">Flip All</button>
   <button id="shuffle">Shuffle</button>
@@ -34,7 +37,7 @@ EDITED
     <div class="back">Answer 2</div>
   </div>
   <div class="flashcard" data-answered="false" onclick="toggleCard(this)">
-    <div class="front"><img src="https://via.placeholder.com/150" style="max-width:100%;"/><br>Question 3: Image?</div>
+    <div class="front"><img src="https://via.placeholder.com/150" style="max-width:100%;"/><br>Question 3: Image? ![image_1748618189739_0.png](/img/user/assets/attachments/image_1748618189739_0.png) </div>
     <div class="back">Answer 3: This is a placeholder image.</div>
   </div>
 </div>
@@ -66,6 +69,14 @@ EDITED
 .flashcard.flipped .back { transform: rotateY(0deg); }
 .flashcard[data-answered="true"] { border-color: limegreen; }
 .flashcard.marked { border-color: orange; }
+.flashcard.marked::after {
+  content: "★";
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  color: orange;
+  font-size: 1.5em;
+}
 
 @media (max-width: 900px) { .flashcard { width: calc(50% - 20px); } }
 @media (max-width: 600px) { .flashcard { width: 100%; } }
@@ -75,7 +86,7 @@ EDITED
 const cards = Array.from(document.querySelectorAll('.flashcard'));
 let index = 0;
 
-// Show one card at a time (for slideshow)
+// Show one card at a time (slideshow mode)
 function showCard(i) {
   cards.forEach((c, j) => c.style.display = j === i ? 'flex' : 'none');
 }
@@ -89,12 +100,14 @@ function toggleCard(card) {
 
 // Toolbar buttons
 document.getElementById('flipAll').addEventListener('click', () => cards.forEach(toggleCard));
+
 document.getElementById('shuffle').addEventListener('click', () => {
   const container = document.getElementById('flashcards');
   for (let i = container.children.length; i >= 0; i--) {
     container.appendChild(container.children[Math.random() * i | 0]);
   }
 });
+
 document.getElementById('reset').addEventListener('click', () => {
   cards.forEach(c => {
     c.classList.remove('flipped');
@@ -102,9 +115,23 @@ document.getElementById('reset').addEventListener('click', () => {
     c.classList.remove('marked');
   });
 });
-document.getElementById('prev').addEventListener('click', () => { index = (index - 1 + cards.length) % cards.length; showCard(index); });
-document.getElementById('next').addEventListener('click', () => { index = (index + 1) % cards.length; showCard(index); });
-document.getElementById('mark').addEventListener('click', () => { cards[index].classList.toggle('marked'); });
+
+document.getElementById('prev').addEventListener('click', () => {
+  index = (index - 1 + cards.length) % cards.length;
+  showCard(index);
+});
+
+document.getElementById('next').addEventListener('click', () => {
+  index = (index + 1) % cards.length;
+  showCard(index);
+});
+
+// Fixed Mark / Unmark
+document.getElementById('mark').addEventListener('click', () => {
+  const visibleCard = cards.find(c => c.style.display !== 'none');
+  if (visibleCard) visibleCard.classList.toggle('marked');
+});
+
 document.getElementById('showAnswers').addEventListener('click', () => cards.forEach(c => c.classList.add('flipped')));
 
 // Keyboard support
