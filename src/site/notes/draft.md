@@ -49,11 +49,13 @@ EDITED
 
 <style>
 #study-area {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
   align-items: center;
-  justify-content: center;
-  gap: 15px;
-  margin-bottom: 15px;
+  justify-items: center;
+  max-width: 420px;
+  margin: 0 auto 15px auto;
+  gap: 10px;
 }
 
 #flashcards {
@@ -65,24 +67,22 @@ EDITED
 .flashcard {
   width: 100%;
   height: 100%;
+  position: relative;
   border: 2px solid #ccc;
   perspective: 1000px;
   cursor: pointer;
-  position: relative;
 }
 
 .flashcard div {
   position: absolute;
-  width: 100%;
-  height: 100%;
+  inset: 0;
   backface-visibility: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
   padding: 12px;
-  transition: transform 0.6s cubic-bezier(0.4,0.2,0.2,1);
   color: #f9f9f9;
+  transition: transform 0.6s ease;
 }
 
 .front { background: #000; }
@@ -91,30 +91,19 @@ EDITED
 .flashcard.flipped .front { transform: rotateY(180deg); }
 .flashcard.flipped .back  { transform: rotateY(0deg); }
 
-.flashcard.marked {
-  border-color: orange;
-}
-.flashcard.marked::after {
-  content: "★";
-  position: absolute;
-  top: 6px;
-  right: 10px;
-  color: orange;
-  font-size: 1.4em;
-}
-
-.side-btn {
-  font-size: 1.5em;
-  padding: 10px 14px;
+.nav-btn {
+  font-size: 1.8em;
+  padding: 6px 10px;
   cursor: pointer;
 }
 
 #toolbar {
   display: flex;
-  gap: 10px;
   justify-content: center;
+  gap: 10px;
   flex-wrap: wrap;
 }
+
 </style>
 
 
