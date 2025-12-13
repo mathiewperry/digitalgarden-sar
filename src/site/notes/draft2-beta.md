@@ -58,8 +58,8 @@
 }
 
 #flashcards {
-  width: 320px;
-  height: 200px;
+  width: 300px;
+  height: 180px;
   position: relative;
 }
 
