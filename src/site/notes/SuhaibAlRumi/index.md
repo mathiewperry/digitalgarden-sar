@@ -24,3 +24,27 @@
 Materials from these pages may be used for educational, non-commercial purposes with credit and notification to authors.The content of this site is intended for educational purposes only and is not to be taken as medical advice.
 ```
 
+---
+<!-- Footer Container -->
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 40px; border-top: 1px solid #ccc; padding-top: 20px;">
+
+  <!-- Left: Logo -->
+  <div style="flex: 1;">
+    <img src="[[suhaibalrumi logo 2025.png]]" alt="Logo" style="height: 50px;">
+  </div>
+
+  <!-- Right: Socials -->
+  <div style="flex: 1; text-align: right;">
+    <a href="https://twitter.com/itssuhaibalrumi" target="_blank">Twitter</a> |
+    <a href="https://github.com/yourhandle" target="_blank">GitHub</a> |
+    <a href="https://linkedin.com/in/yourhandle" target="_blank">LinkedIn</a>
+  </div>
+</div>
+
+<!-- Recent Posts -->
+<div style="margin-top: 10px; border-top: 1px solid #eee; padding-top: 10px;">
+  <strong>Recent Posts:</strong> 
+  <a href="/post1"> [[SuhaibAlRumi/posts/free uptodate\|free uptodate]] </a> | 
+  <a href="/post2">Post 2</a> | 
+  <a href="/post3">Post 3</a>
+</div>
