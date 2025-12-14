@@ -195,6 +195,31 @@ click spacebar to flip a card
 
 
 
+## 2 
+
+
+<div id="flashcards">
+  <div class="flashcard" onclick="this.classList.toggle('flipped')">
+    <div class="front">Question 1</div>
+    <div class="back">Answer 1</div>
+  </div>
+  <div class="flashcard" onclick="this.classList.toggle('flipped')">
+    <div class="front">Question 2</div>
+    <div class="back">Answer 2</div>
+  </div>
+</div>
+
+<style>
+.flashcard { width: 300px; height: 180px; border: 1px solid #ccc; perspective: 1000px; margin: 10px; cursor: pointer; }
+.flashcard div { width: 100%; height: 100%; backface-visibility: hidden; display:flex; align-items:center; justify-content:left; text-align: left; position:absolute; padding: 10px; transition: transform 0.3s; color: #F9F9F9; font-size: 1em; overflow-wrap: break-word; word-wrap: break-word; line-height: 1.2em;  }
+.flashcard .front { background:#000000; }
+.flashcard .back { background:#222222; transform: rotateY(180deg); }
+.flashcard.flipped .front { transform: rotateY(180deg); }
+.flashcard.flipped .back { transform: rotateY(0deg); }
+#flashcards { display:flex; flex-wrap:wrap; justify-content: flex-start; }
+</style>
+
+
 ---
 
   <div style="flex: 1; text-align: center;">
