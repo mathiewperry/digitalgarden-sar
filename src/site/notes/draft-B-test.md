@@ -3,7 +3,6 @@
 ---
 
 
-## 1 
 
 
 
@@ -19,8 +18,8 @@
 
 <div id="flashcards">
   <div class="flashcard" data-answered="none" onclick="toggleCard(this)">
-    <div class="front">Question 1 long long long long long ? </div>
-    <div class="back">Answer 1 long long long long long long long long long long long long long long long long long long long long long long long </div>
+    <div class="front">Question 1 ? </div>
+    <div class="back">Answer 1 </div>
   </div>
   <div class="flashcard" data-answered="none" onclick="toggleCard(this)">
     <div class="front">Question 2 </div>
