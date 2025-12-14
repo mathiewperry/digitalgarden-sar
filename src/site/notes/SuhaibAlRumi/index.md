@@ -20,7 +20,7 @@
 
   <div style="flex: 1;">
     <div> 
-      <img src="website-archive/suhaibalrumi-logo-2025.png" alt="Logo" style="height: 100px;">
+      <img src=".../website-archive/suhaibalrumi-logo-2025.png" alt="Logo" style="height: 60px;">
     </div> 
   </div>
 
