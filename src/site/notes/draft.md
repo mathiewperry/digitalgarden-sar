@@ -3,116 +3,31 @@
 ---
 
 
+
+
+## V2 
+
+<div id="flashcards">
+  <div class="flashcard" onclick="this.classList.toggle('flipped')">
+    <div class="front">Question 1 Long long  Long long Long long Long long Long long Long long Long long Long long Long long</div>
+    <div class="back">Answer 1  Long long Long long Long long Long long</div>
+  </div>
+  <div class="flashcard" onclick="this.classList.toggle('flipped')">
+    <div class="front">Question 2</div>
+    <div class="back">Answer 2</div>
+  </div>
+</div>
+
 <style>
-  /* 1. Header Container */
-  .cool-header {
-    position: sticky; /* Stays at top */
-    top: 0;
-    z-index: 1000; /* Stays on top of other content */
-    background: rgba(17, 17, 17, 0.95); /* Dark semi-transparent */
-    backdrop-filter: blur(10px); /* Blur effect */
-    border-bottom: 4px solid transparent;
-    border-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%) 1; /* Matching Gradient */
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 0 20px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
-  }
-
-  .header-inner {
-    max-width: 1000px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 70px; /* Fixed height */
-  }
-
-  /* 2. Logo Styling */
-  .header-logo {
-    display: flex;
-    align-items: center;
-  }
-  
-  .header-logo img {
-    height: 40px; /* Slightly smaller than footer */
-    transition: transform 0.3s ease;
-  }
-
-  .header-logo:hover img {
-    transform: scale(1.05);
-  }
-
-  /* 3. Navigation Links */
-  .nav-menu {
-    display: flex;
-    gap: 30px;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-
-  .nav-link {
-    text-decoration: none;
-    color: #e0e0e0;
-    font-weight: 500;
-    font-size: 1rem;
-    position: relative;
-    padding: 5px 0;
-    transition: color 0.3s;
-  }
-
-  /* Cool Underline Animation */
-  .nav-link::after {
-    content: '';
-    position: absolute;
-    width: 0;
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background: linear-gradient(to right, #6a11cb, #2575fc);
-    transition: width 0.3s ease;
-  }
-
-  .nav-link:hover {
-    color: #fff;
-  }
-
-  .nav-link:hover::after {
-    width: 100%; /* Expands on hover */
-  }
-
-  /* 4. Mobile Responsiveness */
-  @media (max-width: 600px) {
-    .header-inner {
-      flex-direction: column;
-      height: auto;
-      padding: 15px 0;
-      gap: 15px;
-    }
-    
-    .nav-menu {
-      gap: 20px;
-      font-size: 0.9rem;
-    }
-  }
+.flashcard { width: 300px; height: 180px; border: 1px solid #ccc; perspective: 1000px; margin: 10px; cursor: pointer; }
+.flashcard div { width: 100%; height: 100%; backface-visibility: hidden; display:flex; align-items:center; justify-content:left; text-align: left; position:absolute; padding: 10px; transition: transform 0.3s; color: #F9F9F9; font-size: 1em; overflow-wrap: break-word; word-wrap: break-word; line-height: 1.2em;  }
+.flashcard .front { background:#000000; }
+.flashcard .back { background:#222222; transform: rotateY(180deg); }
+.flashcard.flipped .front { transform: rotateY(180deg); }
+.flashcard.flipped .back { transform: rotateY(0deg); }
+#flashcards { display:flex; flex-wrap:wrap; justify-content: flex-start; }
 </style>
 
-<header class="cool-header">
-  <div class="header-inner">
-    
-    <a href="index.html" class="header-logo">
-      <img src="website-archive/suhaibalrumi-logo-2025.png" alt="Suhaib Alrumi Logo">
-    </a>
-
-    <ul class="nav-menu">
-      <li><a href="#" class="nav-link">Home</a></li>
-      <li><a href="#" class="nav-link">About</a></li>
-      <li><a href="#" class="nav-link">Portfolio</a></li>
-      <li><a href="mailto:contact@suhaibalrumi.com" class="nav-link">Contact</a></li>
-    </ul>
-
-  </div>
-</header>
 
 
 
@@ -129,7 +44,7 @@
 
 
 ---
-
+## V1 
 
 <div id="toolbar" style="margin-bottom:15px; display:flex; gap:10px; flex-wrap:wrap;">
   <button id="flipAll">Flip All</button>
@@ -971,119 +886,6 @@ function checkAllAnswered() {
 
 ---
 ## Footnotes
-
-
-<style>
-  /* 1. Footer Container Styling */
-  .cool-footer {
-    background: #111; /* Dark background */
-    color: #fff;
-    padding: 40px 20px;
-    border-top: 4px solid transparent;
-    border-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%) 1; /* Gradient Top Border */
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-
-  .footer-inner {
-    max-width: 1000px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap; /* Allows stacking on mobile */
-    gap: 20px;
-  }
-
-  /* 2. Logo Styling */
-  .footer-logo img {
-    height: 50px;
-    transition: all 0.3s ease;
-    filter: drop-shadow(0 0 0 transparent);
-  }
-
-  .footer-logo img:hover {
-    transform: scale(1.05);
-    filter: drop-shadow(0 0 10px rgba(37, 117, 252, 0.6)); /* Blue Glow */
-  }
-
-  /* 3. Social Links Styling */
-  .social-links {
-    display: flex;
-    gap: 15px;
-  }
-
-  .social-btn {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    text-decoration: none;
-    color: #ccc;
-    background: rgba(255, 255, 255, 0.05); /* Glass effect */
-    padding: 10px 20px;
-    border-radius: 30px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    font-size: 0.9rem;
-    font-weight: 600;
-  }
-
-  .social-btn svg {
-    width: 18px;
-    height: 18px;
-    fill: currentColor;
-  }
-
-  /* Specific Hover Colors */
-  .social-btn:hover {
-    transform: translateY(-3px); /* Lifts up */
-    color: white;
-    border-color: transparent;
-  }
-
-  .social-btn.email:hover { background: #ea4335; box-shadow: 0 5px 15px rgba(234, 67, 53, 0.4); }
-  .social-btn.linkedin:hover { background: #0077b5; box-shadow: 0 5px 15px rgba(0, 119, 181, 0.4); }
-  .social-btn.orcid:hover { background: #a6ce39; box-shadow: 0 5px 15px rgba(166, 206, 57, 0.4); }
-
-  /* 4. Mobile Responsiveness */
-  @media (max-width: 600px) {
-    .footer-inner {
-      flex-direction: column;
-      text-align: center;
-    }
-    .social-links {
-      justify-content: center;
-      width: 100%;
-    }
-  }
-</style>
-
-<footer class="cool-footer">
-  <div class="footer-inner">
-    
-    <div class="footer-logo">
-      <img src="website-archive/suhaibalrumi-logo-2025.png" alt="Suhaib Alrumi Logo">
-    </div>
-
-    <div class="social-links">
-      
-      <a href="mailto:contact@suhaibalrumi.com" class="social-btn email" target="_blank">
-        <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
-        Email
-      </a>
-
-      <a href="http://www.linkedin.com/in/itssuhaibalrumi" class="social-btn linkedin" target="_blank">
-        <svg viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
-        LinkedIn
-      </a>
-
-      <a href="https://orcid.org/0000-0002-0892-6516" class="social-btn orcid" target="_blank">
-        <svg viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 16.336h-1.5v-7.672h1.5v7.672zm-.75-8.397c-.496 0-.9-.379-.9-.852 0-.474.404-.852.9-.852s.9.378.9.852c0 .473-.404.852-.9.852zm7.75 8.397h-2.313v-3.793c0-1.125-.323-1.636-1.188-1.636-.889 0-1.312.571-1.312 1.767v3.661h-1.5v-7.672h1.365v1.076c.554-.828 1.459-1.255 2.443-1.255 1.789 0 2.505 1.139 2.505 3.098v4.754z"/></svg>
-        ORCID
-      </a>
-
-    </div>
-  </div>
-</footer>
 
 
 ```

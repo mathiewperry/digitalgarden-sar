@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/SuhaibAlRumi/index/","title":["home"],"tags":["gardenEntry"]}
 ---
 
-## Hey 👋 , I'm Suhaib, Another human on this planet ! Welcome to my small corner of the world where I share some interesting stuff for you to enjoy ! 
+#### Hey 👋 , I'm Suhaib, Another human on this planet ! Welcome to my small corner of the world where I share some interesting stuff for you to enjoy ! 
 
 ---
 ## Super Posts 🔥
@@ -20,7 +20,7 @@
 
   <div style="flex: 1;">
     <div> 
-      <img src="website-archive/suhaibalrumi-logo-2025.png" alt="Logo" style="height: 50px;">
+      <img src="website-archive/suhaibalrumi-logo-2025.png" alt="Logo" style="height: 100px;">
     </div> 
   </div>
 
