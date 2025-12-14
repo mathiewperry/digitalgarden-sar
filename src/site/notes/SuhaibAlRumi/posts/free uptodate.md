@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/SuhaibAlRumi/posts/free uptodate/"}
+{"dg-publish":true,"permalink":"/SuhaibAlRumi/posts/free uptodate/","dgHomeLink":true,"dgShowBacklinks":true,"dgShowLocalGraph":true,"dgShowInlineTitle":true,"dgShowFileTree":true,"dgEnableSearch":true,"dgShowToc":true,"dgLinkPreview":true,"dgShowTags":true}
 ---
 
 
