@@ -4,8 +4,6 @@
 
 
 
-
-
 <div id="toolbar" style="margin-bottom:15px; display:flex; gap:10px; flex-wrap:wrap;">
   <button id="flipAll">Flip All</button>
   <button id="shuffle">Shuffle</button>
@@ -18,8 +16,8 @@
 
 <div id="flashcards">
   <div class="flashcard" data-answered="none" onclick="toggleCard(this)">
-    <div class="front">Question 1 ? </div>
-    <div class="back">Answer 1 </div>
+    <div class="front">Question 1 long long long long long ? </div>
+    <div class="back">Answer 1 long long long long long long long long long long long long long long long long long long long long long long long </div>
   </div>
   <div class="flashcard" data-answered="none" onclick="toggleCard(this)">
     <div class="front">Question 2 </div>
@@ -184,4 +182,31 @@ document.addEventListener('keydown', e => {
   if(e.key.toLowerCase() === 'i') markAnswer('incorrect');
 });
 </script>
+
+---
+
+```
+click M to mark/unmark a card
+click C to mark a card correctly answered
+click I to mark a card incorrectly answered
+click right/left arrows for next/previous card
+click spacebar to flip a card
+```
+
+
+
+---
+
+  <div style="flex: 1; text-align: center;">
+    <a href="mailto:contact@suhaibalrumi.com" target="_blank">Email</a> -
+    <a href="http://www.linkedin.com/in/itssuhaibalrumi" target="_blank">Linkedin</a> -
+    <a href="https://orcid.org/0000-0002-0892-6516" target="_blank">ORCID</a>
+  </div>
+
+---
+
+```
+Materials from these pages may be used for educational, non-commercial purposes with credit and notification to authors.The content of this site is intended for educational purposes only and is not to be taken as medical advice.
+```
+
 
