@@ -11,12 +11,17 @@
 ### Feel free to follow me on [GoodReads](https://www.goodreads.com/itssuhaibalrumi) if you're interested, though I’m not very active there anymore!
 
 
-* * *
- [ORCID](https://orcid.org/0000-0002-0892-6516) |  [Linkedin](http://www.linkedin.com/in/itssuhaibalrumi) |  [GoodReads](https://www.goodreads.com/itssuhaibalrumi) |  [Email](mailto:contact@suhaibalrumi.com)
+---
+
+  <div style="flex: 1; text-align: center;">
+    <a href="mailto:contact@suhaibalrumi.com" target="_blank">Email</a> -
+    <a href="http://www.linkedin.com/in/itssuhaibalrumi" target="_blank">Linkedin</a> -
+    <a href="https://orcid.org/0000-0002-0892-6516" target="_blank">ORCID</a>
+  </div>
+
+---
 
 ```
 Materials from these pages may be used for educational, non-commercial purposes with credit and notification to authors.The content of this site is intended for educational purposes only and is not to be taken as medical advice.
 ```
-
-
 
