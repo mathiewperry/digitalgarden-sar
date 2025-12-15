@@ -4,6 +4,20 @@
 
 #### Hey 👋 , I'm Suhaib, Another human on this planet ! Welcome to my small corner of the world where I share some interesting stuff for you to enjoy ! 
 
+> [!tip] Limited Time Offer!  🔥
+> - If you are a Medical Student or Health Care Worker who study medicine but struggles to study for long sessions, then you can apply to join an Online 24/7 Study With Me Group (No Cam or Audio required) which hosts medstudents/doctors from all over the world! 
+> -  Requiemments :
+> 	- Have Telegram Account to join the Group
+> 	- Have Google account to join Google Meet on any device
+> 	- Be Respectful & Nice to all members
+> - Apply Now by sending me an email [here](mailto:contact@suhaibalrumi.com) which includes your first name, country, study or work field. 
+>
+> ---
+
+---
+
+
+
 ---
 ## Super Posts 🔥
 📍 Get DynaMed, Annals of IM Journal & Clinical Cases for FREE →  [[SuhaibAlRumi/posts/Free DynaMed and DynaMed Decisions and IBM Micromedex\|Free DynaMed and DynaMed Decisions and IBM Micromedex]]
