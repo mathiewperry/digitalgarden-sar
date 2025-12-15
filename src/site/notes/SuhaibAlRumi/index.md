@@ -6,6 +6,7 @@
 
 > [!tip] Limited Time Offer!  🔥
 > - If you are a Medical Student or Health Care Worker who study medicine but struggles to study for long sessions, then you can apply to join an Online 24/7 Study With Me Group (No Cam or Audio required) which hosts medstudents/doctors from all over the world! 
+> - the group and the sessions are FREE of any charge. 
 > -  Requiemments :
 > 	- Have Telegram Account to join the Group
 > 	- Have Google account to join Google Meet on any device
