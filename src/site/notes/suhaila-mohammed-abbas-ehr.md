@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/suhaila-mohammed-abbas-ehr/","hide":true}
+{"dg-publish":true,"permalink":"/suhaila-mohammed-abbas-ehr/","hide":true,"dgShowLocalGraph":true,"dgShowToc":true}
 ---
 
 
