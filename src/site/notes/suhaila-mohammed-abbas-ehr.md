@@ -13,13 +13,6 @@
 ---
 
 
-
-<div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
-
-
-
-## Her Electronic Health Record EHR (Shared)  
-
 ### 📊 Patient Vitals Log
 
 | Date | Time | PR (bpm) | RR (/min) | BP (mmHg) | SpO₂ (%) | Temp (°C) | BMI | Weight (kg) | Height (cm) | BSA (m²) | OFC (cm) | U/LSegment Ratio(peds) | Notes |
@@ -90,6 +83,3 @@
 ###### [[2025-07-28\|2025-07-28]]
 Cardiology visit : stopped the Tensart ., next visit must be after 6 months on [[journals/2026-03-28\|2026-03-28]]
 
-
-
-</div></div>
