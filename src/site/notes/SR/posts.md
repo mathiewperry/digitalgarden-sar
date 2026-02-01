@@ -1,20 +1,19 @@
 ---
-{"dg-publish":true,"permalink":"/SR/bookshelf/"}
+{"dg-publish":true,"permalink":"/SR/posts/","title":["posts"],"dgShowLocalGraph":true,"dgEnableSearch":true,"dgLinkPreview":true}
 ---
 
+ 
+> [!tip] here you'll find all posts I've written...
 
-> [!tip] some books i read recently
-> - Make Time: How to Focus on What Matters Every Day by Jake Knapp & John Zeratsky - [GoodReads](https://www.goodreads.com/book/show/39317186-make-time) 
-> - All Bleeding Stops: Life and Death in the Trauma Unit by Stephen M. Cohn -  [GoodReads](https://www.goodreads.com/book/show/144623834-all-bleeding-stops) 
-> - Permanent Record by Edward Snowden -  [GoodReads](https://www.goodreads.com/book/show/49833241-permanent-record)
 
-### Feel free to follow me on [GoodReads](https://www.goodreads.com/itssuhaibalrumi) if you're interested, though I’m not very active there anymore!
-
+> [!abstract] POSTS LOG
+> - [[journals/2025-12-13\|2025-12-13]] 
+> 	- [[SR/free uptodate\|free uptodate]]
+> 	- [[SR/Free DynaMed and DynaMed Decisions and IBM Micromedex\|Free DynaMed and DynaMed Decisions and IBM Micromedex]]
+> 	- [[SR/6th Year Iraqi Ministerial Exam Past Year Questions 2022, 2023, 2024\|6th Year Iraqi Ministerial Exam Past Year Questions 2022, 2023, 2024]]
+> 	- 
 
 ---
-
----
-
 <div style="flex: 1; text-align: center;">
   <a href="https://www.suhaibalrumi.com/" target="_blank">Home</a> -
   <a href="https://www.suhaibalrumi.com/SR/posts/" target="_blank">Posts</a> -
@@ -33,4 +32,5 @@
 ```
 Materials from these pages may be used for educational, non-commercial purposes with credit and notification to authors.The content of this site is intended for educational purposes only and is not to be taken as medical advice.
 ```
+
 

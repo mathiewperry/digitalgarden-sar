@@ -75,11 +75,20 @@
 
 ---
 
-  <div style="flex: 1; text-align: center;">
-    <a href="mailto:contact@suhaibalrumi.com" target="_blank">Email</a> -
-    <a href="http://www.linkedin.com/in/itssuhaibalrumi" target="_blank">Linkedin</a> -
-    <a href="https://orcid.org/0000-0002-0892-6516" target="_blank">ORCID</a>
-  </div>
+---
+
+<div style="flex: 1; text-align: center;">
+  <a href="https://www.suhaibalrumi.com/" target="_blank">Home</a> -
+  <a href="https://www.suhaibalrumi.com/SR/posts/" target="_blank">Posts</a> -
+  <a href="https://www.suhaibalrumi.com/SR/newsletter/" target="_blank">Newsletter</a> -
+  <a href="https://www.suhaibalrumi.com/SR/bookshelf/" target="_blank">Bookshelf</a>
+</div>
+
+<div style="flex: 1; text-align: center; margin-top: 6px;">
+  <a href="mailto:contact@suhaibalrumi.com" target="_blank">Email</a> -
+  <a href="http://www.linkedin.com/in/itssuhaibalrumi" target="_blank">LinkedIn</a> -
+  <a href="https://orcid.org/0000-0002-0892-6516" target="_blank">ORCID</a>
+</div>
 
 ---
 

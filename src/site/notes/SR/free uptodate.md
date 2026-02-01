@@ -1,17 +1,20 @@
 ---
-{"dg-publish":true,"permalink":"/SR/bookshelf/"}
+{"dg-publish":true,"permalink":"/SR/free uptodate/","dgHomeLink":true,"dgShowBacklinks":true,"dgShowLocalGraph":true,"dgShowInlineTitle":true,"dgShowFileTree":true,"dgEnableSearch":true,"dgShowToc":true,"dgLinkPreview":true,"dgShowTags":true}
 ---
 
 
-> [!tip] some books i read recently
-> - Make Time: How to Focus on What Matters Every Day by Jake Knapp & John Zeratsky - [GoodReads](https://www.goodreads.com/book/show/39317186-make-time) 
-> - All Bleeding Stops: Life and Death in the Trauma Unit by Stephen M. Cohn -  [GoodReads](https://www.goodreads.com/book/show/144623834-all-bleeding-stops) 
-> - Permanent Record by Edward Snowden -  [GoodReads](https://www.goodreads.com/book/show/49833241-permanent-record)
-
-### Feel free to follow me on [GoodReads](https://www.goodreads.com/itssuhaibalrumi) if you're interested, though I’m not very active there anymore!
+> [!tip] Summary 
+> - 
 
 
----
+- Better Evidence is part of a non-profit organization that facilitates free subscriptions to UpToDate, a leading clinical database, for eligible providers.   
+  
+* UpToDate is a digital, evidence-based clinical tool that helps providers make care decisions. Although UpToDate is an online resource available on computers or mobile phones, it can also be accessed offline. Learn more about UpToDate [here](https://www.uptodate.com/) .  
+
+* Apply for a no-cost UpToDate subscription through [Better Evidence](http://better-evidence.org/) .  
+  The application is simple and eligibility criteria are listed up front.
+
+
 
 ---
 
