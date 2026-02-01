@@ -16,9 +16,9 @@
 
 ---
 ## 📌 Super Posts 
-- Get DynaMed, Annals of IM Journal & Clinical Cases for FREE →  [[SR/posts/Free DynaMed and DynaMed Decisions and IBM Micromedex\|Free DynaMed and DynaMed Decisions and IBM Micromedex]]
-- Get UpToDate for FREE → [[SR/posts/free uptodate\|free uptodate]]
-- Interested in Anki Decks → [[SR/posts/6th Year Iraqi Ministerial Exam Past Year Questions 2022, 2023, 2024\|6th Year Iraqi Ministerial Exam Past Year Questions 2022, 2023, 2024]]
+- Get DynaMed, Annals of IM Journal & Clinical Cases for FREE →  [[SR/post/Free DynaMed and DynaMed Decisions and IBM Micromedex\|Free DynaMed and DynaMed Decisions and IBM Micromedex]]
+- Get UpToDate for FREE → [[SR/post/free uptodate\|SR/post/free uptodate]]
+- Interested in Anki Decks → [[SR/post/6th Year Iraqi Ministerial Exam Past Year Questions 2022, 2023, 2024\|6th Year Iraqi Ministerial Exam Past Year Questions 2022, 2023, 2024]]
 
 ---
 
