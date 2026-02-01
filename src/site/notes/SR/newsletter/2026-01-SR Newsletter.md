@@ -32,7 +32,7 @@
 ---
 ## Literature Corner 
 
-- i found out about this paper titled "Microplastics and Nanoplastics in Atheromas and Cardiovascular Events" [^1] from youtube video by Dr. [[Mel Herbert\|Mel Herbert]]. [^2] 
+- i found out about this paper titled "Microplastics and Nanoplastics in Atheromas and Cardiovascular Events" [^1] from youtube video by Dr. [[pages/Mel Herbert\|Mel Herbert]]. [^2] 
 - so basically the Answer right now is **NO You don't get a stroke or MI from all there plastics your body is exposed to on a daily basis**, BUT it could be a risk factor for ACS. 
 
 
