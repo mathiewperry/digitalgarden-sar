@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/SR/Free DynaMed and DynaMed Decisions and IBM Micromedex/","title":["Free DynaMed, DynaMed Decisions and IBM Micromedex Access !"]}
+{"dg-publish":true,"permalink":"/SR/Free DynaMed and DynaMed Decisions and IBM Micromedex/","title":["Free DynaMed, DynaMed Decisions and IBM Micromedex Access !"],"hide":true}
 ---
 
 
