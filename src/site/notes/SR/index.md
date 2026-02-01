@@ -5,10 +5,12 @@
 #### Hey 👋 , I'm Suhaib, Another human on this planet ! Welcome to my small corner of the world where I share some interesting stuff for you to enjoy ! 
 
 ---
+
   <div style="flex: 1; text-align: center;">
     <a href="https://www.suhaibalrumi.com/SR/newsletter/" target="_blank">Newsletter</a> -
     <a href="https://www.suhaibalrumi.com/SR/bookshelf/" target="_blank">Bookshelf</a>
   </div>
+
 ---
 
 > [!tip] Limited Time Offer!  🔥
