@@ -100,10 +100,19 @@
 ---
 ### 📅 Clinic Visits Log 
 
-###### [[2025-07-28\|2025-07-28]]
+###### [[2025-07-28\|2025-07-28]] - Cardiology visit with 👤 Dr. Arshad Fuad - د. ارشد فؤاد
 Cardiology visit : stopped the Tensart ., next visit must be after 6 months on [[journals/2026-03-28\|2026-03-28]]
 
-2026-01-30
+###### [[journals/2026-01-19\|2026-01-19]] - Cardiology visit with 👤 Dr. Arshad Fuad - د. ارشد فؤاد
+- same Prescription as above and he added Omprazole cap 20 mg QD (taken 30 mins before breakfast)
+
+###### [[journals/2026-01-31\|2026-01-31]] - ENT Visit with 👤 Dr.Mustafa Abdul Karim Al Ansari [ِENT] - د.مصطفى  
+- pt. was complaining of Reduced Hearing & Ear Ring Sound for over a week.
+- Dr. Mustafa Prescribed the following for her : 
+	- Levofloxacin  500 mg tabs 1 x 1 for 10 Days.
+	- Montelukast 10 mg + Desloratadine 5 mg (Monteral) tabs 1 x 1 for 30 Days. 
+	- Normal Saline Nasal Spray (Physio-fine)  2 x 4 for 14 Days.
+- note :  afew months ago pt. had similar symptoms and went to the same doctor and was treated with similar Meds (as reported by the pt. )
 
 ---
 ### Physicians Log
