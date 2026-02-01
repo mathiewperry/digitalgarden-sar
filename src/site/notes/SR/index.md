@@ -4,6 +4,11 @@
 
 #### Hey 👋 , I'm Suhaib, Another human on this planet ! Welcome to my small corner of the world where I share some interesting stuff for you to enjoy ! 
 
+---
+[SR Newsletter](https://www.suhaibalrumi.com/SR/newsletter/) ~ [Bookshelf](https://www.suhaibalrumi.com/SR/bookshelf/) ~ 
+
+---
+
 > [!tip] Limited Time Offer!  🔥
 > - If you are a medical student or health care worker who study medicine but struggles to study for long sessions, lucky you ! you have the chance to join an amazing Online 24/7 Study With Me Group (No Cam or Audio required) which hosts medstudents/doctors from all over the world! 
 > - the group and the sessions are FREE of any charges. 
