@@ -10,7 +10,7 @@
 > - LLMs AI are growing and expanding each day, taking over the online writing world (it seems like it), so this newsletter is written by me (trust me I'm a human not an AI! LOL) and whenever I need to use an LLM you'll see a footnote telling you what I used it for ie. text (formatting / rephrasing).
 
 > [!abstract] Newsletter Log 
-> - [[SR/newsletter/2026-01-SR Newsletter\|2026-01-SR Newsletter]]
+> - [[SR/newsletter issues/2026-01-SR Newsletter\|2026-01-SR Newsletter]]
 
 ##### Main Categories that are usually covered in this Newsletter are as follows : 
 - Evidence-Based Medicine
