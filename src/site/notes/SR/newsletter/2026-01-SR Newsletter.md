@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/SR/newsletter/2026-01-SR Newsletter/","title":["2026-01-SR Newsletter"],"dgEnableSearch":true,"dgLinkPreview":true}
+{"dg-publish":true,"permalink":"/SR/newsletter/2026-01-SR Newsletter/","title":["2026-01-SR Newsletter"],"hide":true,"dgEnableSearch":true,"dgLinkPreview":true}
 ---
 
 
