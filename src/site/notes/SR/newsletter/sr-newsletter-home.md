@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/SR/newsletter/sr-newsletter-home/","title":["SR Newsletter Hompage"],"dgShowLocalGraph":true,"dgEnableSearch":true,"dgLinkPreview":true}
+{"dg-publish":true,"permalink":"/SR/newsletter/sr-newsletter-home/","title":["newsletter home"],"dgShowLocalGraph":true,"dgEnableSearch":true,"dgLinkPreview":true}
 ---
 
 > [!question] What Is This & Who Is It For ?  
