@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/SR/posts/","title":["posts"],"dgShowLocalGraph":true,"dgEnableSearch":true,"dgLinkPreview":true}
 ---
 
- 
-> [!tip] here you'll find all posts I've written...
-
 
 > [!abstract] POSTS LOG
 > - [[journals/2025-12-13\|2025-12-13]] 
