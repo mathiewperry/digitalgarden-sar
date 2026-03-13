@@ -11,6 +11,8 @@
 
 > [!abstract] Newsletter Log 
 > - [[SR/2026-01-SR Newsletter\|2026-01-SR Newsletter]]
+> - [[2026-02-SR Newsletter\|2026-02-SR Newsletter]]
+> ---
 
 ##### Main Categories that are usually covered in this Newsletter are as follows : 
 - Evidence-Based Medicine

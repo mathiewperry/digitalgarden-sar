@@ -79,7 +79,7 @@
 - Hospitalizations:  
 
 ### 🏥 Past Surgical Hx (PSHx)
-- Previous surgeries or procedures :  
+- Previous surgeries or procedures :  Partial Gastrectomy & Possible "carpal tunnel release' surgery.
 - Complications :  
 
 ### 💊 Past Drug / Therapy Hx  
@@ -102,6 +102,13 @@
 
 ###### [[2025-07-28\|2025-07-28]] - Cardiology visit with 👤 Dr. Arshad Fuad - د. ارشد فؤاد
 Cardiology visit : stopped the Tensart ., next visit must be after 6 months on [[journals/2026-03-28\|2026-03-28]]
+
+##### [[2025-10-20\|2025-10-20]] ENT Visit due to bilateral partial hearing loss
+- [Grandma ENT visit 2025-10-20.pdf](/img/user/assets/archive/suhaila/Grandma%20ENT%20visit%202025-10-20.pdf)
+- Rx : 
+	- 1. Levofloxacin 500mg 1 * 1 for 7 days (after meal)
+	- 2. Montelukast 10mg / Desloratadine 5mg  1 * 1  for 1 month
+	- 3. mometasone Nasal Spray 50mg 2 * 2 for  1 month 
 
 ###### [[journals/2026-01-19\|2026-01-19]] - Cardiology visit with 👤 Dr. Arshad Fuad - د. ارشد فؤاد
 - same Prescription as above and he added Omprazole cap 20 mg QD (taken 30 mins before breakfast)
