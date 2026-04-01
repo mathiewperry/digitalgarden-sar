@@ -100,10 +100,27 @@
 ---
 ### 📅 Clinic Visits Log 
 
+######  [2026-03-29](2026-03-29) Rheumatologist Visit with Dr. Mohammed
+- he added Dibase 300k IU (1 amp. × 1ml) Vit. D3 taken once every month. 
+- Removed Febuxostat. 
+- Increased Methotrexate dose to 1.5 cc each sunday. 
+
+##### [[journals/2026-02-22\|2026-02-22]] Rheumatolofist Visit (first visit to a different Doctor) Dr. Mohammed
+- pt. has been experiencing a flare Up of RA, Decided to Switch Doctors leaving Dr. Maab for Dr. Mohammed.
+- [2026-02-22-18-44-suhaila-dr-muhammed](2026-02-22-18-44-suhaila-dr-muhammed.pdf)
+- New Rx : 
+	- MetaMax amp every 2 days
+	- ‎Methotrexate Vial 50mg/5ml (1cc each week)
+	- ‎Hydroxychloroquine tab. 200mg
+	- Prednisolone tab. 5mg
+	- Folic acid tab. 5mg
+	- Febuxostate tables 40 mg
+	- Gabatrex 100 mg
+
 ###### [[2025-07-28\|2025-07-28]] - Cardiology visit with 👤 Dr. Arshad Fuad - د. ارشد فؤاد
 Cardiology visit : stopped the Tensart ., next visit must be after 6 months on [[journals/2026-03-28\|2026-03-28]]
 
-##### [[2025-10-20\|2025-10-20]] ENT Visit due to bilateral partial hearing loss
+###### [[2025-10-20\|2025-10-20]] ENT Visit due to bilateral partial hearing loss
 - [Grandma ENT visit 2025-10-20.pdf](/img/user/assets/archive/suhaila/Grandma%20ENT%20visit%202025-10-20.pdf)
 - Rx : 
 	- 1. Levofloxacin 500mg 1 * 1 for 7 days (after meal)
@@ -125,6 +142,7 @@ Cardiology visit : stopped the Tensart ., next visit must be after 6 months on [
 ### Physicians Log
 - 👤 Dr. Arshad Fuad - د. ارشد فؤاد
 - 👤 Dr.Maab Jassim Mohammad - د. مآب جاسم 
+- 👤 Dr. Mohammed 
 - 👤 Dr.Louay Johar - د. لؤي جوهر
 - 👤 Dr. Ehab Saeed Ahmed [M.B.Ch.B F.I.C.M.(GEH) C.A.B.M. F.I.B.M.S.] - د. ايهاب  
 - 👤 Dr.Thaer Rasem Al-Dahri [M.B.Ch.B - C.A.B.O.S] - د. ثائر 
