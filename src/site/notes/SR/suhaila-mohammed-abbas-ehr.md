@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/SR/suhaila-mohammed-abbas-ehr/","hide":true}
+{"dg-publish":true,"permalink":"/SR/suhaila-mohammed-abbas-ehr/","hide":true,"dg-note-properties":{"related":["[[suhaila mohammed abbas]]"],"title":null,"category":["[[post-category]]"],"created":"2025-12-22","published":null,"lastupdated":null,"author":null,"sarrating":null,"source":null,"cover":null,"note":null}}
 ---
 
 

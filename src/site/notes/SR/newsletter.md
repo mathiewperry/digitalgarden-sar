@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/SR/newsletter/","title":["SR Newsletter "],"dgShowLocalGraph":true,"dgEnableSearch":true,"dgLinkPreview":true}
+{"dg-publish":true,"permalink":"/SR/newsletter/","title":["SR Newsletter "],"dgShowLocalGraph":true,"dgEnableSearch":true,"dgLinkPreview":true,"dg-note-properties":{"related":["[[SuhaibAlRumi/index|index]]"],"title":["SR Newsletter "],"created":"2025-12-15","published":null,"lastupdated":null,"author":null,"sarrating":null,"source":null,"cover":null,"note":null,"due":null,"priority":null,"status":null,"done":null,"scheduled":null,"start-plain":null,"end-plain":null,"started":null,"finished":null,"progress":null,"estimatedtime":null,"actualtime":null}}
 ---
 
 > [!question] What Is This & Who Is It For ?  

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/SR/bookshelf/"}
+{"dg-publish":true,"permalink":"/SR/bookshelf/","dg-note-properties":{"links":null,"title":null,"created":"2025-12-13","published":null,"lastupdated":null,"author":null,"sarrating":null,"source":null,"cover":null,"note":null}}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/SR/2026-01-SR Newsletter/","title":["2026-01-SR Newsletter"],"hide":true,"dgEnableSearch":true,"dgLinkPreview":true}
+{"dg-publish":true,"permalink":"/SR/2026-01-SR Newsletter/","title":["2026-01-SR Newsletter"],"hide":true,"dgEnableSearch":true,"dgLinkPreview":true,"dg-note-properties":{"related":["[[newsletter]]","[[newsletter-category]]","[[Primary and secondary Prevention of cardiovascular Diseases-cardiology-im-6s]]"],"title":["2026-01-SR Newsletter"],"created":"2026-01-19","published":null,"lastupdated":null,"author":null,"sarrating":null,"source":null,"cover":null,"note":null,"priority":null,"status":["[[done-category]]"],"done":null,"due":"2026-01-28T16:16:00","scheduled":null,"start-plain":null,"end-plain":null,"started":null,"finished":null,"progress":null,"estimatedtime":null,"actualtime":null}}
 ---
 
 
