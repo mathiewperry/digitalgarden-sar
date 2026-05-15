@@ -5,9 +5,9 @@
 
 > [!abstract] POSTS LOG
 > - [[2025-12-13\|2025-12-13]] 
-> 	- [[SR/free uptodate\|free uptodate]]
-> 	- [[SR/Free DynaMed and DynaMed Decisions and IBM Micromedex\|Free DynaMed and DynaMed Decisions and IBM Micromedex]]
-> 	- [[SR/6th Year Iraqi Ministerial Exam Past Year Questions 2022, 2023, 2024\|6th Year Iraqi Ministerial Exam Past Year Questions 2022, 2023, 2024]]
+> 	- [[SR/free-uptodate-post\|free-uptodate-post]]
+> 	- [[SR/Free-DynaMed-DynaMed-Decisions-IBM-Micromedex-post\|Free-DynaMed-DynaMed-Decisions-IBM-Micromedex-post]]
+> 	- [[SR/6th-Year-Iraqi-Ministerial-Exam-Past-Year-Questions-2022-2023-2024\|6th-Year-Iraqi-Ministerial-Exam-Past-Year-Questions-2022-2023-2024]]
 > 	- 
 
 ---
