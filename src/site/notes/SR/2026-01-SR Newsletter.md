@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/SR/2026-01-SR Newsletter/","title":["2026-01-SR Newsletter"],"hide":true,"dgEnableSearch":true,"dgLinkPreview":true,"dg-note-properties":{"related":["[[newsletter]]","[[newsletter-category]]","[[Primary and secondary Prevention of cardiovascular Diseases-cardiology-im-6s]]"],"title":["2026-01-SR Newsletter"],"created":"2026-01-19","published":null,"lastupdated":null,"author":null,"sarrating":null,"source":null,"cover":null,"note":null,"priority":null,"status":["[[done-category]]"],"done":null,"due":"2026-01-28T16:16:00","scheduled":null,"start-plain":null,"end-plain":null,"started":null,"finished":null,"progress":null,"estimatedtime":null,"actualtime":null}}
+{"dg-publish":true,"permalink":"/SR/2026-01-SR Newsletter/","title":["2026-01-SR Newsletter"],"hide":true,"dgEnableSearch":true,"dgLinkPreview":true,"dg-note-properties":{"related":["[newsletter](newsletter.md)","[newsletter-category](newsletter-category.md)","[Primary and secondary Prevention of cardiovascular Diseases-cardiology-im-6s](Primary%20and%20secondary%20Prevention%20of%20cardiovascular%20Diseases-cardiology-im-6s.md)"],"title":["2026-01-SR Newsletter"],"created":"2026-01-19","published":null,"lastupdated":null,"author":null,"sarrating":null,"source":null,"cover":null,"note":null}}
 ---
 
 
@@ -32,7 +32,7 @@
 ---
 ## Literature Corner 
 
-- i found out about this paper titled "Microplastics and Nanoplastics in Atheromas and Cardiovascular Events" [^1] from youtube video by Dr. [[pages/Mel Herbert\|Mel Herbert]]. [^2] 
+- i found out about this paper titled "Microplastics and Nanoplastics in Atheromas and Cardiovascular Events" [^1] from youtube video by Dr. [[notes/Mel Herbert\|Mel Herbert]]. [^2] 
 - so basically the Answer right now is **NO You don't get a stroke or MI from all there plastics your body is exposed to on a daily basis**, BUT it could be a risk factor for ACS. 
 
 
@@ -73,7 +73,7 @@
 
 [^3]: “ACGME Award - the Operative Review of Surgery.” The Operative Review of Surgery, 8 Jan. 2026, operativereview.com/acgme-award.
 
----
+
 
 ---
 

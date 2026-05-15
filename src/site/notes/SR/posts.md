@@ -1,10 +1,10 @@
 ---
-{"dg-publish":true,"permalink":"/SR/posts/","title":["posts"],"dgShowLocalGraph":true,"dgEnableSearch":true,"dgLinkPreview":true,"dg-note-properties":{"related":["[[index]]"],"title":["posts"],"category":["[[post-category]]"],"created":"2026-02-02","published":null,"lastupdated":null,"author":null,"sarrating":null,"source":null,"cover":null,"note":null}}
+{"dg-publish":true,"permalink":"/SR/posts/","title":["posts"],"dgShowLocalGraph":true,"dgEnableSearch":true,"dgLinkPreview":true,"dg-note-properties":{"related":["[[index]]","[[post-category]]"],"title":["posts"],"created":"2026-02-02","published":null,"lastupdated":null,"author":null,"sarrating":null,"source":null,"cover":null,"note":null}}
 ---
 
 
 > [!abstract] POSTS LOG
-> - [[journals/2025-12-13\|2025-12-13]] 
+> - [[2025-12-13\|2025-12-13]] 
 > 	- [[SR/free uptodate\|free uptodate]]
 > 	- [[SR/Free DynaMed and DynaMed Decisions and IBM Micromedex\|Free DynaMed and DynaMed Decisions and IBM Micromedex]]
 > 	- [[SR/6th Year Iraqi Ministerial Exam Past Year Questions 2022, 2023, 2024\|6th Year Iraqi Ministerial Exam Past Year Questions 2022, 2023, 2024]]

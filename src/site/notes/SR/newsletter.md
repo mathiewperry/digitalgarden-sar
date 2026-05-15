@@ -1,12 +1,13 @@
 ---
-{"dg-publish":true,"permalink":"/SR/newsletter/","title":["SR Newsletter "],"dgShowLocalGraph":true,"dgEnableSearch":true,"dgLinkPreview":true,"dg-note-properties":{"related":["[[SuhaibAlRumi/index|index]]"],"title":["SR Newsletter "],"created":"2025-12-15","published":null,"lastupdated":null,"author":null,"sarrating":null,"source":null,"cover":null,"note":null,"due":null,"priority":null,"status":null,"done":null,"scheduled":null,"start-plain":null,"end-plain":null,"started":null,"finished":null,"progress":null,"estimatedtime":null,"actualtime":null}}
+{"dg-publish":true,"permalink":"/SR/newsletter/","title":["SR Newsletter "],"dgShowLocalGraph":true,"dgEnableSearch":true,"dgLinkPreview":true,"dg-note-properties":{"related":["[[SuhaibAlRumi/index|index]]"],"title":["SR Newsletter "],"created":"2025-12-15","published":null,"lastupdated":null,"author":null,"sarrating":null,"source":null,"cover":null,"note":null,"due":null,"priority":null,"status":null,"scheduled":null,"progress":null}}
 ---
 
+
 > [!question] What Is This & Who Is It For ?  
-> - this is a curated medical / personal newsletter I write and post at the end of each month.
-> - There is a lot of stuff i read about each month and would like to share it with you, my dear online reader!
-> - This Newsletter is intended for medical students, health care providers and any online visiter who would like to see what's new in this website.
-> - I made this newsletter specifically hosted on the open web to avoid any annoying social media feeds or ads and there is No attention stealing notifications ! You can just bookmark this webpage and offload it in your mobile browser and read the newsletter whenever you have time. 
+> - this is a curated medical newsletter with a personal touch that I write and post periodically. 
+> - There is a lot of stuff i read about each month and I would like to share it with you, my dear chronic online user 😁!
+> - This newsletter is intended for medical students, health care providers and any online visiter who would like to see what's new in this website.
+> - I made this newsletter specifically hosted on the open web to avoid any annoying / addictive social media feeds or ads and there is No attention seeking notifications ! You can just bookmark this webpage and offload it in your mobile browser and read the newsletter whenever you have time. 
 > - LLMs AI are growing and expanding each day, taking over the online writing world (it seems like it), so this newsletter is written by me (trust me I'm a human not an AI! LOL) and whenever I need to use an LLM you'll see a footnote telling you what I used it for ie. text (formatting / rephrasing).
 
 > [!abstract] Newsletter Log 

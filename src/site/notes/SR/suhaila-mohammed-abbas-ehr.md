@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/SR/suhaila-mohammed-abbas-ehr/","hide":true,"dg-note-properties":{"related":["[[suhaila mohammed abbas]]"],"title":null,"category":["[[post-category]]"],"created":"2025-12-22","published":null,"lastupdated":null,"author":null,"sarrating":null,"source":null,"cover":null,"note":null}}
+{"dg-publish":true,"permalink":"/SR/suhaila-mohammed-abbas-ehr/","title":["Suhaila EHR"],"hide":true,"dg-note-properties":{"related":["[[suhaila mohammed abbas]]","[[post-category]]"],"title":["Suhaila EHR"],"created":"2025-12-22","published":null,"lastupdated":null,"author":null,"sarrating":null,"source":null,"cover":null,"note":null}}
 ---
 
 
@@ -8,6 +8,10 @@
 
 > [!warning] WARNING ! (anything requiring urgent monitoring or follow-up) 
 > - none yet
+
+## **⏰UPCOMING**
+- [[2026-05-29\|2026-05-29]] 3rd Visit to Dr. Mohammed (Rheumatology)
+- 
 
 ---
 ###  📇 Personal Data
@@ -26,8 +30,10 @@
 
 ---
 ### 📑 Investigations Log (Ix) 
-- Ordered:
-- Results: 
+Orders :  
+	- [2026-05-14](2026-05-14.md)  ordered [suhaila-labs-2026-02](suhaila-labs-2026-02.pdf) 
+		- Stable RA + mild renal dysfunction + probable urinary infection/inflammation + mild anemia in an elderly cardiac patient.
+ 
 
 | Date       | Ix Type  | Test / Imaging | Result / Findings | Reference Range | Indication / Diagnosis Suspected | Ordered By | Notes / Follow-up  |
 | ---------- | -------- | -------------- | ----------------- | --------------- | -------------------------------- | ---------- | ------------------ |
@@ -100,12 +106,14 @@
 ---
 ### 📅 Clinic Visits Log 
 
-######  [2026-03-29](2026-03-29) Rheumatologist Visit with Dr. Mohammed
+######  [2026-03-29](2026-03-29) Rheumatologist Visit with Dr. Mohammed (2nd Visit)
 - he added Dibase 300k IU (1 amp. × 1ml) Vit. D3 taken once every month. 
 - Removed Febuxostat. 
 - Increased Methotrexate dose to 1.5 cc each sunday. 
+- next visit in 2 Months 
+- Rx : [Mohammed_2026-03-29-visit](Mohammed_2026-03-29-visit.pdf)
 
-##### [[journals/2026-02-22\|2026-02-22]] Rheumatolofist Visit (first visit to a different Doctor) Dr. Mohammed
+##### [[2026-02-22\|2026-02-22]] Rheumatolofist Visit (first visit to a different Doctor) Dr. Mohammed
 - pt. has been experiencing a flare Up of RA, Decided to Switch Doctors leaving Dr. Maab for Dr. Mohammed.
 - [2026-02-22-18-44-suhaila-dr-muhammed](2026-02-22-18-44-suhaila-dr-muhammed.pdf)
 - New Rx : 
@@ -118,7 +126,7 @@
 	- Gabatrex 100 mg
 
 ###### [[2025-07-28\|2025-07-28]] - Cardiology visit with 👤 Dr. Arshad Fuad - د. ارشد فؤاد
-Cardiology visit : stopped the Tensart ., next visit must be after 6 months on [[journals/2026-03-28\|2026-03-28]]
+Cardiology visit : stopped the Tensart ., next visit must be after 6 months on [[2026-03-28\|2026-03-28]]
 
 ###### [[2025-10-20\|2025-10-20]] ENT Visit due to bilateral partial hearing loss
 - [Grandma ENT visit 2025-10-20.pdf](/img/user/assets/archive/suhaila/Grandma%20ENT%20visit%202025-10-20.pdf)
@@ -127,10 +135,10 @@ Cardiology visit : stopped the Tensart ., next visit must be after 6 months on [
 	- 2. Montelukast 10mg / Desloratadine 5mg  1 * 1  for 1 month
 	- 3. mometasone Nasal Spray 50mg 2 * 2 for  1 month 
 
-###### [[journals/2026-01-19\|2026-01-19]] - Cardiology visit with 👤 Dr. Arshad Fuad - د. ارشد فؤاد
+###### [[2026-01-19\|2026-01-19]] - Cardiology visit with 👤 Dr. Arshad Fuad - د. ارشد فؤاد
 - same Prescription as above and he added Omprazole cap 20 mg QD (taken 30 mins before breakfast)
 
-###### [[journals/2026-01-31\|2026-01-31]] - ENT Visit with 👤 Dr.Mustafa Abdul Karim Al Ansari [ِENT] - د.مصطفى  
+###### [[2026-01-31\|2026-01-31]] - ENT Visit with 👤 Dr.Mustafa Abdul Karim Al Ansari [ِENT] - د.مصطفى  
 - pt. was complaining of Reduced Hearing & Ear Ring Sound for over a week.
 - Dr. Mustafa Prescribed the following for her : 
 	- Levofloxacin  500 mg tabs 1 x 1 for 10 Days.
