@@ -20,7 +20,7 @@
 ```base
 views:
   - type: cards
-    name: Posts
+    name: POSTS
     filters:
       and:
         - file.hasLink("notes/category/post-category")
@@ -34,7 +34,7 @@ views:
     image: note.cover
     cardSize: 200
     imageFit: contain
-    imageAspectRatio: 0.7
+    imageAspectRatio: 0.75
 
 ```
 
