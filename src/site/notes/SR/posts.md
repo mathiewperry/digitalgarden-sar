@@ -3,12 +3,11 @@
 ---
 
 
-> [!abstract] POSTS LOG
-> - [[2025-12-13\|2025-12-13]] 
-> 	- [[SR/free-uptodate-post\|free-uptodate-post]]
-> 	- [[SR/Free-DynaMed-DynaMed-Decisions-IBM-Micromedex-post\|Free-DynaMed-DynaMed-Decisions-IBM-Micromedex-post]]
-> 	- [[SR/6th-Year-Iraqi-Ministerial-Exam-Past-Year-Questions-2022-2023-2024\|6th-Year-Iraqi-Ministerial-Exam-Past-Year-Questions-2022-2023-2024]]
-> 	- 
+## **📂 POSTS LOG**
+- [2025-12-13](2025-12-13.md)  	
+	- [[SR/free-uptodate-post\|free-uptodate-post]]
+	- [[SR/Free-DynaMed-DynaMed-Decisions-IBM-Micromedex-post\|Free-DynaMed-DynaMed-Decisions-IBM-Micromedex-post]]
+	- [[SR/6th-Year-Iraqi-Ministerial-Exam-Past-Year-Questions-2022-2023-2024\|6th-Year-Iraqi-Ministerial-Exam-Past-Year-Questions-2022-2023-2024]]
 
 ---
 <div style="flex: 1; text-align: center;">
