@@ -19,7 +19,7 @@
 
 ```base
 views:
-  - type: cards
+  - type: table
     name: POSTS
     filters:
       and:
@@ -27,7 +27,9 @@ views:
         - note["dg-publish"] == true
         - note["dg-passcode"] != true
         - '!file.name.contains("posts")'
-    order: []
+    order:
+      - title
+      - file.name
     sort:
       - property: file.mtime
         direction: DESC
