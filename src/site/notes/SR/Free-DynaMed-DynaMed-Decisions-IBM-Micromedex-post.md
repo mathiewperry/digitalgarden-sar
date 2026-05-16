@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/SR/Free-DynaMed-DynaMed-Decisions-IBM-Micromedex-post/","title":["Free DynaMed, DynaMed Decisions and IBM Micromedex Access !"],"hide":true,"dg-note-properties":{"related":["[[post-category]]","[[SuhaibAlRumi/index|index]]"],"title":["Free DynaMed, DynaMed Decisions and IBM Micromedex Access !"],"created":"2025-12-13","published":null,"lastupdated":null,"author":null,"sarrating":null,"source":null,"cover":"[[Free-DynaMed-DynaMed-Decisions-IBM-Micromedex-Access-cover.png]]","note":null}}
+{"dg-publish":true,"permalink":"/SR/Free-DynaMed-DynaMed-Decisions-IBM-Micromedex-post/","title":["Free DynaMed, DynaMed Decisions and IBM Micromedex Access !"],"dgLinkPreview":true,"dg-note-properties":{"related":["[[post-category]]","[[SuhaibAlRumi/index|index]]"],"title":["Free DynaMed, DynaMed Decisions and IBM Micromedex Access !"],"created":"2025-12-13","published":null,"lastupdated":null,"author":null,"sarrating":null,"source":null,"cover":"[[Free-DynaMed-DynaMed-Decisions-IBM-Micromedex-Access-cover.png]]","note":null}}
 ---
 
 
