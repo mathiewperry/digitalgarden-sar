@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/SR/free-uptodate-post/","title":["🎁 Free UpToDate (Legally)"],"dgHomeLink":true,"dgShowBacklinks":true,"dgShowLocalGraph":true,"dgShowInlineTitle":true,"dgShowFileTree":true,"dgEnableSearch":true,"dgShowToc":true,"dgLinkPreview":true,"dgShowTags":true,"dg-note-properties":{"related":["[[post-category]]"],"title":["🎁 Free UpToDate (Legally)"],"created":"2025-12-13","published":null,"lastupdated":null,"author":null,"sarrating":null,"source":null,"cover":"[[free-uptodate-cover.png]]","note":null}}
+{"dg-publish":true,"permalink":"/SR/free-uptodate-post/","title":["🎁 Free UpToDate (Legally)"],"hide":true,"dgHomeLink":true,"dgShowBacklinks":true,"dgShowLocalGraph":true,"dgShowInlineTitle":true,"dgShowFileTree":true,"dgEnableSearch":true,"dgShowToc":true,"dgLinkPreview":true,"dgShowTags":true,"dg-note-properties":{"related":["[[post-category]]"],"title":["🎁 Free UpToDate (Legally)"],"created":"2025-12-13","published":null,"lastupdated":null,"author":null,"sarrating":null,"source":null,"cover":"[[free-uptodate-cover.png]]","note":null}}
 ---
 
 

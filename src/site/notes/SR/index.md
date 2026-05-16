@@ -17,28 +17,23 @@
 
 ---
 
+
 ```base
 views:
-  - type: table
-    name: POSTS
+  - type: cards
+    name: Posts
     filters:
       and:
         - file.hasLink("notes/category/post-category")
         - note["dg-publish"] == true
-        - note["dg-passcode"] != true
-        - '!file.name.contains("posts")'
-    order:
-      - title
-      - file.name
-    sort:
-      - property: file.mtime
-        direction: DESC
+        - '!file.name.containsAny("posts")'
+        - '!file.name.containsAny("suhaila")'
     image: note.cover
-    cardSize: 200
-    imageFit: contain
-    imageAspectRatio: 0.75
+    imageAspectRatio: 0.6
+    cardSize: 250
 
 ```
+
 
 
 
