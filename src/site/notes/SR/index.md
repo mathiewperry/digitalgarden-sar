@@ -16,25 +16,10 @@
 >
 
 ---
-
-
-```base
-views:
-  - type: cards
-    name: Posts
-    filters:
-      and:
-        - file.hasLink("notes/category/post-category")
-        - note["dg-publish"] == true
-        - '!file.name.containsAny("posts")'
-        - '!file.name.containsAny("suhaila")'
-    image: note.cover
-    imageAspectRatio: 0.6
-    cardSize: 250
-
-```
-
-
+## Recent 
+ - [Free UpToDate](https://www.suhaibalrumi.com/SR/free-uptodate-post/)
+- [Free DynaMed, DynaMed Decisions & IBM Micromedex](https://www.suhaibalrumi.com/SR/Free-DynaMed-DynaMed-Decisions-IBM-Micromedex-post/)
+- [Final Year Iraqi Medstudents Ministerial Exam Past Year Questions 2022, 2023, 2024](https://www.suhaibalrumi.com/SR/6th-Year-Iraqi-Ministerial-Exam-Past-Year-Questions-2022-2023-2024/)
 
 
 ---
