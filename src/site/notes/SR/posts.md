@@ -14,6 +14,7 @@
   <a href="https://www.suhaibalrumi.com/" target="_blank">Home</a> -
   <a href="https://www.suhaibalrumi.com/SR/posts/" target="_blank">Posts</a> -
   <a href="https://www.suhaibalrumi.com/SR/newsletter/" target="_blank">Newsletter</a> -
+<a href="https://www.suhaibalrumi.com/SR/social-feed/" target="_blank">Social Feed</a> -
   <a href="https://www.suhaibalrumi.com/SR/bookshelf/" target="_blank">Bookshelf</a>
 </div>
 
