@@ -22,7 +22,7 @@
 
 
 ##### [[2026-05-23\|2026-05-23]]
-- [This](https://www.youtube.com/watch?v=wYSncx9zLIU) SUCKS ! The Idea that Gemini Controls my device and Does Useful Stuff for me is Amazing and sounds Actually useful If you are a 5 year who does not know how Google makes profit ! Like Why Not Give the User the Option to Load any open source "Local" AI models that have system wide access? Why does it have to connect to Google's servers ? Not Powerful Enough. Well then You are a Tech Company, Make it Powerful enough to run Locally, Isn't it part of your job to do that ?! 
+- [This](https://www.youtube.com/watch?v=wYSncx9zLIU) SUCKS ! The Idea that Gemini Controls my device and Does Useful Stuff for me is Amazing and sounds Actually useful If you are a 5 years old who does not know how Google makes profit ! Like Why Not Give the User the Option to Load any open source "Local" AI models that have system wide access? Why does it have to connect to Google's servers ? Not Powerful Enough. Well then You are a Tech Company, Make it Powerful enough to run Locally, Isn't it part of your job to do that ?! 
 ---
 ##### [2026-05-22](2026-05-22.md)
 - Today's Quote   ❝Once men turned their thinking over to machines in the hope that this would set them free. But that only permitted other men with machines to enslave them ❞ 👤[[Frank Herbert\|Frank Herbert]] , Dune. 
