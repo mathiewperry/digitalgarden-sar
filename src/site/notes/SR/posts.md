@@ -4,10 +4,10 @@
 
 
 ## **📂 POSTS LOG**
-- [2025-12-13](2025-12-13.md)  	
-	- [[SR/free-uptodate-post\|free-uptodate-post]]
-	- [[SR/Free-DynaMed-DynaMed-Decisions-IBM-Micromedex-post\|Free-DynaMed-DynaMed-Decisions-IBM-Micromedex-post]]
-	- [[SR/6th-Year-Iraqi-Ministerial-Exam-Past-Year-Questions-2022-2023-2024\|6th-Year-Iraqi-Ministerial-Exam-Past-Year-Questions-2022-2023-2024]]
+##### [2025-12-13](2025-12-13.md)  	
+ - [Free UpToDate](https://www.suhaibalrumi.com/SR/free-uptodate-post/)
+- [Free DynaMed, DynaMed Decisions & IBM Micromedex](https://www.suhaibalrumi.com/SR/Free-DynaMed-DynaMed-Decisions-IBM-Micromedex-post/)
+- [Final Year Iraqi Medstudents Ministerial Exam Past Year Questions 2022, 2023, 2024](https://www.suhaibalrumi.com/SR/6th-Year-Iraqi-Ministerial-Exam-Past-Year-Questions-2022-2023-2024/)
 
 ---
 <div style="flex: 1; text-align: center;">

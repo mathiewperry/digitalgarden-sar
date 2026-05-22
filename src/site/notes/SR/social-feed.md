@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/SR/social-feed/","title":"social-feed","hide":true,"dg-note-properties":{"related":null,"title":"social-feed","created":"2026-05-19","published":null,"lastupdated":null,"status":["[in-progress-category](in-progress-category.md)"],"priority":["[3](3.md)"],"progress":60,"due":null,"scheduled":null,"author":null,"sarrating":null,"source":null,"cover":null,"note":null}}
+{"dg-publish":true,"permalink":"/SR/social-feed/","title":"social-feed","hide":true,"dgHomeLink":true,"dgShowBacklinks":true,"dgShowLocalGraph":true,"dgShowInlineTitle":true,"dgEnableSearch":true,"dgLinkPreview":true,"dg-note-properties":{"related":null,"title":"social-feed","created":"2026-05-19","published":null,"lastupdated":null,"status":["[in-progress-category](in-progress-category.md)"],"priority":["[3](3.md)"],"progress":60,"due":null,"scheduled":null,"author":null,"sarrating":null,"source":null,"cover":null,"note":null}}
 ---
 
 # **🤳Suhaib Al Rumi Social Media Feed** 
