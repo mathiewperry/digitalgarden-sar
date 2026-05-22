@@ -1,19 +1,16 @@
 ---
-{"dg-publish":true,"permalink":"/SR/social-feed/","title":"social-feed","hide":true,"dgHomeLink":true,"dgShowBacklinks":true,"dgShowLocalGraph":true,"dgShowInlineTitle":true,"dgEnableSearch":true,"dgLinkPreview":true,"dg-note-properties":{"related":null,"title":"social-feed","created":"2026-05-19","published":null,"lastupdated":null,"status":["[in-progress-category](in-progress-category.md)"],"priority":["[3](3.md)"],"progress":60,"due":null,"scheduled":null,"author":null,"sarrating":null,"source":null,"cover":null,"note":null}}
+{"dg-publish":true,"permalink":"/SR/social-feed/","title":"social-feed","hide":true,"dgHomeLink":true,"dgShowBacklinks":true,"dgShowLocalGraph":true,"dgShowInlineTitle":true,"dgEnableSearch":true,"dgLinkPreview":true,"dg-note-properties":{"related":null,"title":"social-feed","created":"2026-05-19","published":null,"lastupdated":null,"status":["[done-category](done-category.md)"],"priority":["[3](3.md)"],"progress":60,"due":null,"scheduled":null,"author":null,"sarrating":null,"source":null,"cover":null,"note":null}}
 ---
 
-# **🤳Suhaib Al Rumi Social Media Feed** 
 
-
-## **📋WHAT IS THIS**
+## **📋WHAT IS THIS ?**
 - This is a Simple Singular Webpage where I post small bits of information, opinions, quotes,  ideas. 
 - Think of this like my Own Social Media Profile 😁. 
 - for any comment/feedback please refer to Contact section in [Homepage](https://www.suhaibalrumi.com). 
 
-
 ---
 ##  **📌 Pinned**
--  
+- ❝Once men turned their thinking over to machines in the hope that this would set them free. But that only permitted other men with machines to enslave them ❞ 👤[[Frank Herbert\|Frank Herbert]] , Dune. from  [2026-05-22](2026-05-22.md) daily Quote.
 
 
 ---
