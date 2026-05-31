@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/SR/social-feed/","title":"social-feed","hide":true,"dgHomeLink":true,"dgShowBacklinks":true,"dgShowLocalGraph":true,"dgShowInlineTitle":true,"dgEnableSearch":true,"dgLinkPreview":true,"dg-note-properties":{"related":null,"title":"social-feed","created":"2026-05-19","published":null,"lastupdated":null,"status":["[done-category](done-category.md)"],"priority":["[3](3.md)"],"progress":60,"due":null,"scheduled":null,"author":null,"sarrating":null,"source":null,"cover":null,"note":null}}
+{"dg-publish":true,"permalink":"/sr/social-feed/","title":"social-feed","hide":true,"dgHomeLink":true,"dgShowBacklinks":true,"dgShowLocalGraph":true,"dgShowInlineTitle":true,"dgEnableSearch":true,"dgLinkPreview":true,"dg-note-properties":{"related":null,"title":"social-feed","created":"2026-05-19","published":null,"lastupdated":null,"status":["[done-category](done-category.md)"],"priority":["[3](3.md)"],"progress":60,"due":null,"scheduled":null,"author":null,"sarrating":null,"source":null,"cover":null,"note":null}}
 ---
 
 
 ## **📋WHAT IS THIS ?**
 - This is a Simple Singular Webpage where I post small bits of information, opinions, quotes,  ideas. 
 - Think of this like my Own Social Media Profile 😁. 
+- You can Add [this feed](https://rss.app/feeds/IKwiaMLfPqNmd4fF.xml) to your own RSS feed. 
 - for any comment/feedback please refer to Contact section in [Homepage](https://www.suhaibalrumi.com). 
 
 ---
@@ -16,9 +17,10 @@
 ---
 ## 2026
 
+##### [[2026-06-03\|2026-06-03]]
+- added rss feed to this social feed, [here](https://rss.app/feeds/IKwiaMLfPqNmd4fF.xml) it it. 
 
-
-##### [[2026-05-23\|2026-05-23]]
+##### [[journals/2026-05-23\|2026-05-23]]
 - [This](https://www.youtube.com/watch?v=wYSncx9zLIU) SUCKS ! The Idea that Gemini Controls my device and Does Useful Stuff for me is Amazing and sounds Actually useful If you are a 5 years old who does not know how Google makes profit ! Like Why Not Give the User the Option to Load any open source "Local" AI models that have system wide access? Why does it have to connect to Google's servers ? Not Powerful Enough. Well then You are a Tech Company, Make it Powerful enough to run Locally, Isn't it part of your job to do that ?! 
 ---
 ##### [2026-05-22](2026-05-22.md)

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/SR/2026-01-SR Newsletter/","title":["2026-01-SR Newsletter"],"hide":true,"dgEnableSearch":true,"dgLinkPreview":true,"dg-note-properties":{"related":["[newsletter](newsletter.md)","[newsletter-category](newsletter-category.md)","[Primary and secondary Prevention of cardiovascular Diseases-cardiology-im-6s](Primary%20and%20secondary%20Prevention%20of%20cardiovascular%20Diseases-cardiology-im-6s.md)"],"title":["2026-01-SR Newsletter"],"created":"2026-01-19","published":null,"lastupdated":null,"author":null,"sarrating":null,"source":null,"cover":null,"note":null}}
+{"dg-publish":true,"permalink":"/sr/2026-01-sr-newsletter/","title":["2026-01-SR Newsletter"],"hide":true,"dgEnableSearch":true,"dgLinkPreview":true,"dg-note-properties":{"related":["[newsletter](newsletter.md)","[newsletter-category](newsletter-category.md)","[Primary and secondary Prevention of cardiovascular Diseases-cardiology-im-6s](Primary%20and%20secondary%20Prevention%20of%20cardiovascular%20Diseases-cardiology-im-6s.md)"],"title":["2026-01-SR Newsletter"],"created":"2026-01-19","published":null,"lastupdated":null,"author":null,"sarrating":null,"source":null,"cover":null,"note":null}}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/SR/posts/","title":["posts"],"dgShowLocalGraph":true,"dgEnableSearch":true,"dgLinkPreview":true,"dg-note-properties":{"related":["[[index]]","[[post-category]]"],"title":["posts"],"created":"2026-02-02","published":null,"lastupdated":null,"author":null,"sarrating":null,"source":null,"cover":null,"note":null}}
+{"dg-publish":true,"permalink":"/sr/posts/","title":["posts"],"dgShowLocalGraph":true,"dgEnableSearch":true,"dgLinkPreview":true,"dg-note-properties":{"related":["[[index]]","[[post-category]]"],"title":["posts"],"created":"2026-02-02","published":null,"lastupdated":null,"author":null,"sarrating":null,"source":null,"cover":null,"note":null}}
 ---
 
 

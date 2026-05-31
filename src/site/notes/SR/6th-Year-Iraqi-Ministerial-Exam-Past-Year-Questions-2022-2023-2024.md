@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/SR/6th-Year-Iraqi-Ministerial-Exam-Past-Year-Questions-2022-2023-2024/","title":["6th Year Iraqi Ministerial Exam Past Year Questions 2022-2023-2024"],"hide":true,"dgLinkPreview":true,"dg-note-properties":{"related":["[[post-category]]"],"title":["6th Year Iraqi Ministerial Exam Past Year Questions 2022-2023-2024"],"created":"2025-12-13","published":null,"lastupdated":null,"author":null,"sarrating":null,"source":null,"cover":"[[6th-Year-Iraqi-Ministerial-Exam-Past-Year-Questions-2022-2023-2024-cover.png]]","note":null}}
+{"dg-publish":true,"permalink":"/sr/6th-year-iraqi-ministerial-exam-past-year-questions-2022-2023-2024/","title":["6th Year Iraqi Ministerial Exam Past Year Questions 2022-2023-2024"],"hide":true,"dgLinkPreview":true,"dg-note-properties":{"related":["[[post-category]]"],"title":["6th Year Iraqi Ministerial Exam Past Year Questions 2022-2023-2024"],"created":"2025-12-13","published":null,"lastupdated":null,"author":null,"sarrating":null,"source":null,"cover":"[[6th-Year-Iraqi-Ministerial-Exam-Past-Year-Questions-2022-2023-2024-cover.png]]","note":null}}
 ---
 
 

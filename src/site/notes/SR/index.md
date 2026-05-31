@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/SR/index/","title":["home"],"tags":["gardenEntry"],"dg-note-properties":{"title":["home"]}}
+{"dg-publish":true,"permalink":"/sr/index/","title":["home"],"tags":["gardenEntry"],"dg-note-properties":{"title":["home"]}}
 ---
 
 #### Hey 👋 , I'm Suhaib, Another human on this planet ! Welcome to my small corner of the world where I share some interesting stuff for you to enjoy ! 

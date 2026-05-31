@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/SR/newsletter/","title":["SR Newsletter "],"dgShowLocalGraph":true,"dgEnableSearch":true,"dgLinkPreview":true,"dg-note-properties":{"related":["[[SuhaibAlRumi/index|index]]"],"title":["SR Newsletter "],"created":"2025-12-15","published":null,"lastupdated":null,"author":null,"sarrating":null,"source":null,"cover":null,"note":null,"due":null,"priority":null,"status":null,"scheduled":null,"progress":null}}
+{"dg-publish":true,"permalink":"/sr/newsletter/","title":["SR Newsletter "],"dgShowLocalGraph":true,"dgEnableSearch":true,"dgLinkPreview":true,"dg-note-properties":{"related":["[[SuhaibAlRumi/index|index]]"],"title":["SR Newsletter "],"created":"2025-12-15","published":null,"lastupdated":null,"author":null,"sarrating":null,"source":null,"cover":null,"note":null,"due":null,"priority":null,"status":null,"scheduled":null,"progress":null}}
 ---
 
 
@@ -12,7 +12,7 @@
 
 > [!abstract] Newsletter Log 
 > - [[SR/2026-01-SR Newsletter\|2026-01-SR Newsletter]]
-> - [[2026-02-SR Newsletter\|2026-02-SR Newsletter]]
+> - [[SR/2026-02-SR Newsletter\|2026-02-SR Newsletter]]
 > ---
 
 ##### Main Categories that are usually covered in this Newsletter are as follows : 
