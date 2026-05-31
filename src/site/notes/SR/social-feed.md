@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/sr/social-feed/","title":"social-feed","dgHomeLink":true,"dgShowBacklinks":true,"dgShowLocalGraph":true,"dgShowInlineTitle":true,"dgEnableSearch":true,"dgLinkPreview":true,"dg-note-properties":{"related":null,"title":"social-feed","created":"2026-05-19","published":null,"lastupdated":null,"status":["[done-category](done-category.md)"],"priority":["[3](3.md)"],"progress":60,"due":null,"scheduled":null,"author":null,"sarrating":null,"source":null,"cover":null,"note":null}}
+{"dg-publish":true,"permalink":"/sr/social-feed/","title":"social-feed","dgHomeLink":true,"dgShowBacklinks":true,"dgShowLocalGraph":true,"dgShowFileTree":true,"dgEnableSearch":true,"dgShowToc":true,"dgLinkPreview":true,"dg-note-properties":{"related":null,"title":"social-feed","created":"2026-05-19","published":null,"lastupdated":null,"status":["[done-category](done-category.md)"],"priority":["[3](3.md)"],"progress":60,"due":null,"scheduled":null,"author":null,"sarrating":null,"source":null,"cover":null,"note":null}}
 ---
 
 
