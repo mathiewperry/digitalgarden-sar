@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/sr/free-dyna-med-dyna-med-decisions-ibm-micromedex-post/","title":["Free DynaMed, DynaMed Decisions and IBM Micromedex Access !"],"hide":true,"dgHomeLink":true,"dgShowBacklinks":true,"dgShowLocalGraph":true,"dgShowInlineTitle":true,"dgShowFileTree":true,"dgEnableSearch":true,"dgShowToc":true,"dgLinkPreview":true,"dgShowTags":true,"dg-note-properties":{"related":["[[post-category]]","[[SuhaibAlRumi/index|index]]"],"title":["Free DynaMed, DynaMed Decisions and IBM Micromedex Access !"],"created":"2025-12-13","published":null,"lastupdated":null,"author":null,"sarrating":null,"source":null,"cover":"[[Free-DynaMed-DynaMed-Decisions-IBM-Micromedex-Access-cover.png]]","note":null}}
+{"dg-publish":true,"permalink":"/sr/free-dyna-med-dyna-med-decisions-ibm-micromedex-post/","title":["Free DynaMed, DynaMed Decisions and IBM Micromedex Access !"],"hide":true,"dgHomeLink":true,"dgShowBacklinks":true,"dgShowLocalGraph":true,"dgShowInlineTitle":true,"dgShowFileTree":true,"dgEnableSearch":true,"dgShowToc":true,"dgLinkPreview":true,"dgShowTags":true,"dg-note-properties":{"related":["[[post-category]]"],"title":["Free DynaMed, DynaMed Decisions and IBM Micromedex Access !"],"created":"2025-12-13","published":null,"lastupdated":null,"author":null,"sarrating":null,"source":null,"cover":"[[Free-DynaMed-DynaMed-Decisions-IBM-Micromedex-Access-cover.png]]","note":null}}
 ---
 
 ---
@@ -50,7 +50,7 @@ There are Two Proven Ways of getting it, and one that did not work for me .
   7. Now Tap Allow, you allow EBSCO Health to accept your ACP username and verify your membership. Allowing this is necessary in order to continue using this service.
   8. Done . Congrats You have one year free access to DynaMed.
 
-
+---
 
 ```
 Materials from these pages may be used for educational, non-commercial purposes with credit and notification to authors.The content of this site is intended for educational purposes only and is not to be taken as medical advice.
