@@ -2,7 +2,22 @@
 {"dg-publish":true,"permalink":"/sr/social-feed/","title":"social-feed","dgHomeLink":true,"dgShowBacklinks":true,"dgShowLocalGraph":true,"dgShowFileTree":true,"dgEnableSearch":true,"dgShowToc":true,"dgLinkPreview":true,"dg-note-properties":{"related":null,"title":"social-feed","created":"2026-05-19","published":null,"lastupdated":null,"status":["[done-category](done-category.md)"],"priority":["[3](3.md)"],"progress":60,"due":null,"scheduled":null,"author":null,"sarrating":null,"source":null,"cover":null,"note":null}}
 ---
 
+---
+<div style="flex: 1; text-align: center;">
+  <a href="https://www.suhaibalrumi.com/" target="_blank">Home</a> -
+  <a href="https://www.suhaibalrumi.com/sr/posts/" target="_blank">Posts</a> -
+  <a href="https://www.suhaibalrumi.com/sr/newsletter/" target="_blank">Newsletter</a> -
+<a href="https://www.suhaibalrumi.com/sr/social-feed/" target="_blank">Social Feed</a> -
+  <a href="https://www.suhaibalrumi.com/sr/bookshelf/" target="_blank">Bookshelf</a>
+</div>
 
+<div style="flex: 1; text-align: center; margin-top: 6px;">
+  <a href="mailto:contact@suhaibalrumi.com" target="_blank">Email</a> -
+  <a href="http://www.linkedin.com/in/itssuhaibalrumi" target="_blank">LinkedIn</a> -
+  <a href="https://orcid.org/0000-0002-0892-6516" target="_blank">ORCID</a>
+</div>
+
+---
 ## **📋WHAT IS THIS ?**
 - This is a Simple Singular Webpage where I post small bits of information, opinions, quotes,  ideas. 
 - Think of this like my Own Social Media Profile 😁. 
@@ -24,26 +39,6 @@
 - Today's Meme : IYKYK   ![2026-meme-01](/img/user/SR/assets/2026-meme-01.jpeg)
 - Started This Social Feed idea, where Instead of posting on Social Media Platforms I will Post Here, A Single Permanent Webpage to view my own Posts. 
 	- This is Looking GOOD but It Lacks Comments. 
-
----
-
-
-
-
-
----
-<div style="flex: 1; text-align: center;">
-  <a href="https://www.suhaibalrumi.com/" target="_blank">Home</a> -
-  <a href="https://www.suhaibalrumi.com/SR/posts/" target="_blank">Posts</a> -
-  <a href="https://www.suhaibalrumi.com/SR/newsletter/" target="_blank">Newsletter</a> -
-  <a href="https://www.suhaibalrumi.com/SR/bookshelf/" target="_blank">Bookshelf</a>
-</div>
-
-<div style="flex: 1; text-align: center; margin-top: 6px;">
-  <a href="mailto:contact@suhaibalrumi.com" target="_blank">Email</a> -
-  <a href="http://www.linkedin.com/in/itssuhaibalrumi" target="_blank">LinkedIn</a> -
-  <a href="https://orcid.org/0000-0002-0892-6516" target="_blank">ORCID</a>
-</div>
 
 ---
 

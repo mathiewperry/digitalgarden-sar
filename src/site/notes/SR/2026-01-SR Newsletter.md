@@ -2,6 +2,22 @@
 {"dg-publish":true,"permalink":"/sr/2026-01-sr-newsletter/","title":["2026-01-SR Newsletter"],"hide":true,"dgEnableSearch":true,"dgLinkPreview":true,"dg-note-properties":{"related":["[newsletter](newsletter.md)","[newsletter-category](newsletter-category.md)","[Primary and secondary Prevention of cardiovascular Diseases-cardiology-im-6s](Primary%20and%20secondary%20Prevention%20of%20cardiovascular%20Diseases-cardiology-im-6s.md)"],"title":["2026-01-SR Newsletter"],"created":"2026-01-19","published":null,"lastupdated":null,"author":null,"sarrating":null,"source":null,"cover":null,"note":null}}
 ---
 
+---
+<div style="flex: 1; text-align: center;">
+  <a href="https://www.suhaibalrumi.com/" target="_blank">Home</a> -
+  <a href="https://www.suhaibalrumi.com/sr/posts/" target="_blank">Posts</a> -
+  <a href="https://www.suhaibalrumi.com/sr/newsletter/" target="_blank">Newsletter</a> -
+<a href="https://www.suhaibalrumi.com/sr/social-feed/" target="_blank">Social Feed</a> -
+  <a href="https://www.suhaibalrumi.com/sr/bookshelf/" target="_blank">Bookshelf</a>
+</div>
+
+<div style="flex: 1; text-align: center; margin-top: 6px;">
+  <a href="mailto:contact@suhaibalrumi.com" target="_blank">Email</a> -
+  <a href="http://www.linkedin.com/in/itssuhaibalrumi" target="_blank">LinkedIn</a> -
+  <a href="https://orcid.org/0000-0002-0892-6516" target="_blank">ORCID</a>
+</div>
+
+---
 
 > [!tip] In This Month !
 > - This month was heavy on surgery rotation, surgery osce exam is within days from now, wish me GL 🤞... 
@@ -72,23 +88,6 @@
 [^2]: Dr. Mel Herbert, YouTube . https://www.youtube.com/watch?v=W0sBS7_2n1g&t=99s.
 
 [^3]: “ACGME Award - the Operative Review of Surgery.” The Operative Review of Surgery, 8 Jan. 2026, operativereview.com/acgme-award.
-
-
-
----
-
-<div style="flex: 1; text-align: center;">
-  <a href="https://www.suhaibalrumi.com/" target="_blank">Home</a> -
-  <a href="https://www.suhaibalrumi.com/SR/posts/" target="_blank">Posts</a> -
-  <a href="https://www.suhaibalrumi.com/SR/newsletter/" target="_blank">Newsletter</a> -
-  <a href="https://www.suhaibalrumi.com/SR/bookshelf/" target="_blank">Bookshelf</a>
-</div>
-
-<div style="flex: 1; text-align: center; margin-top: 6px;">
-  <a href="mailto:contact@suhaibalrumi.com" target="_blank">Email</a> -
-  <a href="http://www.linkedin.com/in/itssuhaibalrumi" target="_blank">LinkedIn</a> -
-  <a href="https://orcid.org/0000-0002-0892-6516" target="_blank">ORCID</a>
-</div>
 
 ---
 

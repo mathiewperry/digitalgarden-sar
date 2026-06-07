@@ -2,6 +2,22 @@
 {"dg-publish":true,"permalink":"/sr/newsletter/","title":["SR Newsletter "],"dgShowLocalGraph":true,"dgEnableSearch":true,"dgLinkPreview":true,"dg-note-properties":{"related":["[[SuhaibAlRumi/index|index]]"],"title":["SR Newsletter "],"created":"2025-12-15","published":null,"lastupdated":null,"author":null,"sarrating":null,"source":null,"cover":null,"note":null,"due":null,"priority":null,"status":null,"scheduled":null,"progress":null}}
 ---
 
+---
+<div style="flex: 1; text-align: center;">
+  <a href="https://www.suhaibalrumi.com/" target="_blank">Home</a> -
+  <a href="https://www.suhaibalrumi.com/sr/posts/" target="_blank">Posts</a> -
+  <a href="https://www.suhaibalrumi.com/sr/newsletter/" target="_blank">Newsletter</a> -
+<a href="https://www.suhaibalrumi.com/sr/social-feed/" target="_blank">Social Feed</a> -
+  <a href="https://www.suhaibalrumi.com/sr/bookshelf/" target="_blank">Bookshelf</a>
+</div>
+
+<div style="flex: 1; text-align: center; margin-top: 6px;">
+  <a href="mailto:contact@suhaibalrumi.com" target="_blank">Email</a> -
+  <a href="http://www.linkedin.com/in/itssuhaibalrumi" target="_blank">LinkedIn</a> -
+  <a href="https://orcid.org/0000-0002-0892-6516" target="_blank">ORCID</a>
+</div>
+
+---
 
 > [!question] What Is This & Who Is It For ?  
 > - this is a curated medical newsletter with a personal touch that I write and post periodically. 
@@ -36,22 +52,6 @@
 > [!warning] NOTICE !
 > - This newsletter is for Educational purposed only; not a substitute for anything. You Must always consult Your Doctor before doing anything! 
 > - Anything that is based on my personal opinion would have the acronym (imo) at the end of the paragraph.
----
-
-
-<div style="flex: 1; text-align: center;">
-  <a href="https://www.suhaibalrumi.com/" target="_blank">Home</a> -
-  <a href="https://www.suhaibalrumi.com/SR/posts/" target="_blank">Posts</a> -
-  <a href="https://www.suhaibalrumi.com/SR/newsletter/" target="_blank">Newsletter</a> -
-  <a href="https://www.suhaibalrumi.com/SR/bookshelf/" target="_blank">Bookshelf</a>
-</div>
-
-<div style="flex: 1; text-align: center; margin-top: 6px;">
-  <a href="mailto:contact@suhaibalrumi.com" target="_blank">Email</a> -
-  <a href="http://www.linkedin.com/in/itssuhaibalrumi" target="_blank">LinkedIn</a> -
-  <a href="https://orcid.org/0000-0002-0892-6516" target="_blank">ORCID</a>
-</div>
-
 ---
 
 ```

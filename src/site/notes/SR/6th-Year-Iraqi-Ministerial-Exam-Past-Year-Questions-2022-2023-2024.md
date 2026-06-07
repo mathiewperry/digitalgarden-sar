@@ -15,12 +15,12 @@
 > - Intellectual Property: The Anki decks and their content may be subject to copyright or other intellectual property laws. You may not reproduce,modify, distribute, or otherwise use the decks for commercial purposes without obtaining appropriate permission.
 
 ---
-
 <div style="flex: 1; text-align: center;">
   <a href="https://www.suhaibalrumi.com/" target="_blank">Home</a> -
-  <a href="https://www.suhaibalrumi.com/SR/posts/" target="_blank">Posts</a> -
-  <a href="https://www.suhaibalrumi.com/SR/newsletter/" target="_blank">Newsletter</a> -
-  <a href="https://www.suhaibalrumi.com/SR/bookshelf/" target="_blank">Bookshelf</a>
+  <a href="https://www.suhaibalrumi.com/sr/posts/" target="_blank">Posts</a> -
+  <a href="https://www.suhaibalrumi.com/sr/newsletter/" target="_blank">Newsletter</a> -
+<a href="https://www.suhaibalrumi.com/sr/social-feed/" target="_blank">Social Feed</a> -
+  <a href="https://www.suhaibalrumi.com/sr/bookshelf/" target="_blank">Bookshelf</a>
 </div>
 
 <div style="flex: 1; text-align: center; margin-top: 6px;">

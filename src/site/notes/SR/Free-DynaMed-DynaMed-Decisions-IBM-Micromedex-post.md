@@ -2,6 +2,22 @@
 {"dg-publish":true,"permalink":"/sr/free-dyna-med-dyna-med-decisions-ibm-micromedex-post/","title":["Free DynaMed, DynaMed Decisions and IBM Micromedex Access !"],"hide":true,"dgLinkPreview":true,"dg-note-properties":{"related":["[[post-category]]","[[SuhaibAlRumi/index|index]]"],"title":["Free DynaMed, DynaMed Decisions and IBM Micromedex Access !"],"created":"2025-12-13","published":null,"lastupdated":null,"author":null,"sarrating":null,"source":null,"cover":"[[Free-DynaMed-DynaMed-Decisions-IBM-Micromedex-Access-cover.png]]","note":null}}
 ---
 
+---
+<div style="flex: 1; text-align: center;">
+  <a href="https://www.suhaibalrumi.com/" target="_blank">Home</a> -
+  <a href="https://www.suhaibalrumi.com/sr/posts/" target="_blank">Posts</a> -
+  <a href="https://www.suhaibalrumi.com/sr/newsletter/" target="_blank">Newsletter</a> -
+<a href="https://www.suhaibalrumi.com/sr/social-feed/" target="_blank">Social Feed</a> -
+  <a href="https://www.suhaibalrumi.com/sr/bookshelf/" target="_blank">Bookshelf</a>
+</div>
+
+<div style="flex: 1; text-align: center; margin-top: 6px;">
+  <a href="mailto:contact@suhaibalrumi.com" target="_blank">Email</a> -
+  <a href="http://www.linkedin.com/in/itssuhaibalrumi" target="_blank">LinkedIn</a> -
+  <a href="https://orcid.org/0000-0002-0892-6516" target="_blank">ORCID</a>
+</div>
+
+---
 
 > [!tip] Summary 
 > DynaMed is an evidence-based, point-of-care clinical database containing over 2,000 concise disease summaries commonly encountered in primary care, designed to offer quick, reliable, and up-to-date medical information. Free access can be obtained either by repeatedly requesting monthly free trials or, more reliably, by registering for a free ACP (American College of Physicians) medical-student membership, which grants one year of complimentary DynaMed access through the ACP portal; older methods such as applying via HINARI no longer work.
@@ -35,22 +51,6 @@ There are Two Proven Ways of getting it, and one that did not work for me .
   8. Done . Congrats You have one year free access to DynaMed.
 
 
----
-
-<div style="flex: 1; text-align: center;">
-  <a href="https://www.suhaibalrumi.com/" target="_blank">Home</a> -
-  <a href="https://www.suhaibalrumi.com/SR/posts/" target="_blank">Posts</a> -
-  <a href="https://www.suhaibalrumi.com/SR/newsletter/" target="_blank">Newsletter</a> -
-  <a href="https://www.suhaibalrumi.com/SR/bookshelf/" target="_blank">Bookshelf</a>
-</div>
-
-<div style="flex: 1; text-align: center; margin-top: 6px;">
-  <a href="mailto:contact@suhaibalrumi.com" target="_blank">Email</a> -
-  <a href="http://www.linkedin.com/in/itssuhaibalrumi" target="_blank">LinkedIn</a> -
-  <a href="https://orcid.org/0000-0002-0892-6516" target="_blank">ORCID</a>
-</div>
-
----
 
 ```
 Materials from these pages may be used for educational, non-commercial purposes with credit and notification to authors.The content of this site is intended for educational purposes only and is not to be taken as medical advice.
