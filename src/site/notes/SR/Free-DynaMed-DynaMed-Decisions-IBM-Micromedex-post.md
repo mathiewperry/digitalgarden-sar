@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/sr/free-dyna-med-dyna-med-decisions-ibm-micromedex-post/","title":["Free DynaMed, DynaMed Decisions and IBM Micromedex Access !"],"dg-note-properties":{"related":["[[post-category]]","[[SuhaibAlRumi/index|index]]"],"title":["Free DynaMed, DynaMed Decisions and IBM Micromedex Access !"],"created":"2025-12-13","published":null,"lastupdated":null,"author":null,"sarrating":null,"source":null,"cover":"[[Free-DynaMed-DynaMed-Decisions-IBM-Micromedex-Access-cover.png]]","note":null}}
+{"dg-publish":true,"permalink":"/sr/free-dyna-med-dyna-med-decisions-ibm-micromedex-post/","title":["Free DynaMed, DynaMed Decisions and IBM Micromedex Access !"],"hide":true,"dgHomeLink":true,"dgShowBacklinks":true,"dgShowLocalGraph":true,"dgShowInlineTitle":true,"dgShowFileTree":true,"dgEnableSearch":true,"dgShowToc":true,"dgLinkPreview":true,"dgShowTags":true,"dg-note-properties":{"related":["[[post-category]]","[[SuhaibAlRumi/index|index]]"],"title":["Free DynaMed, DynaMed Decisions and IBM Micromedex Access !"],"created":"2025-12-13","published":null,"lastupdated":null,"author":null,"sarrating":null,"source":null,"cover":"[[Free-DynaMed-DynaMed-Decisions-IBM-Micromedex-Access-cover.png]]","note":null}}
 ---
 
 ---
