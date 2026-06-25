@@ -11,7 +11,7 @@
 
 ## **⏰UPCOMING**
 - [ ]  [[2026-07-17\|2026-07-17]] 4th Visit to Dr. Mohammed (Rheumatology)
-- [x] [[journals/2026-05-29\|2026-05-29]] 3rd Visit to Dr. Mohammed (Rheumatology)
+- [x] [[2026-05-29\|2026-05-29]] 3rd Visit to Dr. Mohammed (Rheumatology)
 - 
 
 ---
@@ -133,19 +133,19 @@ Orders :
 	- Gabatrex 100 mg
 
 ###### [[2025-07-28\|2025-07-28]] - Cardiology visit with 👤 Dr. Arshad Fuad - د. ارشد فؤاد
-Cardiology visit : stopped the Tensart ., next visit must be after 6 months on [[journals/2026-03-28\|2026-03-28]]
+Cardiology visit : stopped the Tensart ., next visit must be after 6 months on [[2026-03-28\|2026-03-28]]
 
 ###### [[2025-10-20\|2025-10-20]] ENT Visit due to bilateral partial hearing loss
-- [Grandma ENT visit 2025-10-20.pdf](/img/user/assets/archive/suhaila/Grandma%20ENT%20visit%202025-10-20.pdf)
+- [[Grandma ENT visit 2025-10-20.pdf\|Grandma ENT visit 2025-10-20.pdf]]
 - Rx : 
 	- 1. Levofloxacin 500mg 1 * 1 for 7 days (after meal)
 	- 2. Montelukast 10mg / Desloratadine 5mg  1 * 1  for 1 month
 	- 3. mometasone Nasal Spray 50mg 2 * 2 for  1 month 
 
-###### [[journals/2026-01-19\|2026-01-19]] - Cardiology visit with 👤 Dr. Arshad Fuad - د. ارشد فؤاد
+###### [[2026-01-19\|2026-01-19]] - Cardiology visit with 👤 Dr. Arshad Fuad - د. ارشد فؤاد
 - same Prescription as above and he added Omprazole cap 20 mg QD (taken 30 mins before breakfast)
 
-###### [[journals/2026-01-31\|2026-01-31]] - ENT Visit with 👤 Dr.Mustafa Abdul Karim Al Ansari [ِENT] - د.مصطفى  
+###### [[2026-01-31\|2026-01-31]] - ENT Visit with 👤 Dr.Mustafa Abdul Karim Al Ansari [ِENT] - د.مصطفى  
 - pt. was complaining of Reduced Hearing & Ear Ring Sound for over a week.
 - Dr. Mustafa Prescribed the following for her : 
 	- Levofloxacin  500 mg tabs 1 x 1 for 10 Days.
