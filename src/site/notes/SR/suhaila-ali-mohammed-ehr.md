@@ -10,7 +10,7 @@
 > - none yet
 
 ## **⏰UPCOMING**
-- [ ]  [[2026-07-17\|2026-07-17]] 4th Visit to Dr. Mohammed (Rheumatology)
+- [x]  [[2026-07-17\|2026-07-17]] 4th Visit to Dr. Mohammed (Rheumatology)
 - [x] [[2026-05-29\|2026-05-29]] 3rd Visit to Dr. Mohammed (Rheumatology)
 - 
 
@@ -32,8 +32,9 @@
 ---
 ### 📑 Investigations Log (Ix) 
 Orders :  
-	- [2026-05-14](2026-05-14.md)  ordered [suhaila-labs-2026-02](suhaila-labs-2026-02.pdf) 
-		- Stable RA + mild renal dysfunction + probable urinary infection/inflammation + mild anemia in an elderly cardiac patient.
+- [[2026-07-18\|2026-07-18]]  Rheumatologist Routine Ix : 
+- [2026-05-14](2026-05-14.md)  ordered [suhaila-labs-2026-02](suhaila-labs-2026-02.pdf) 
+	- Stable RA + mild renal dysfunction + probable urinary infection/inflammation + mild anemia in an elderly cardiac patient.
  
 
 | Date       | Ix Type  | Test / Imaging | Result / Findings | Reference Range | Indication / Diagnosis Suspected | Ordered By | Notes / Follow-up  |
@@ -106,6 +107,18 @@ Orders :
 
 ---
 ### 📅 Clinic Visits Log 
+
+##### 📅 around 2026-08-10 Dentist Visit dr. Ammar Yass due to tooth ache
+
+- Rx her : 
+	- Dequalinium Chloride - Buccal Spray (Anginovag) 10 ml aerosol solution 1× 4 Daily. (Contents : Dequalinium chloride 100mg,  Broad-spectrum antimicrobial, 2️⃣ Hydrocortisone acetate 60mg - reduces inflammation 3️⃣ Lidocaine HCl 100mg reduces pain. Plus Tyrothricin 400mg and B-Gyl-cyrrhetinic acid 60mg.) 
+- Hyaluronic Acid Oral Gel  20 ml 1× 4 (GENGIGEL). 
+
+
+##### 📅 2026-07-18 4th dr. Mohammed Rheumatologist visit - Follow Up
+- Added Dibase (Vit B) 300,000 IU Once Monthly. 
+- Gabapentin increased from 100mg to 300 mg for 2 months once daily at night. 
+- Methotrexate is still 50mg/5ml 1 cc on sunday. 
 
 ##### [2026-05-17](2026-05-17.md) Rheumatology Visit 3rd visit 
 - reduced Methotrexate from 1.5 cc to 1cc. Due to stabilizing RA. 
