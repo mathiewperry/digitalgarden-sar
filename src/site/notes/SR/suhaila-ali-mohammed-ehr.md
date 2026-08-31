@@ -10,8 +10,11 @@
 > - none yet
 
 ## **⏰UPCOMING**
-- [x]  [[2026-07-17\|2026-07-17]] 4th Visit to Dr. Mohammed (Rheumatology)
-- [x] [[2026-05-29\|2026-05-29]] 3rd Visit to Dr. Mohammed (Rheumatology)
+
+
+- [x] 👨‍⚕️ 2026-08-31 Follow Up Visit to Dr. Arshad Cardiology
+- [x] 👨‍⚕️  [[2026-07-17\|2026-07-17]] 4th Visit to Dr. Mohammed (Rheumatology)
+- [x] 👨‍⚕️ [[2026-05-29\|2026-05-29]] 3rd Visit to Dr. Mohammed (Rheumatology)
 - 
 
 ---
@@ -107,6 +110,12 @@ Orders :
 
 ---
 ### 📅 Clinic Visits Log 
+
+
+##### 📅 2026-08-31 Cardiology Dr. Arshad Follow Up Visit
+- Same Rx and Mx , No changes...
+
+
 
 ##### 📅 around 2026-08-10 Dentist Visit dr. Ammar Yass due to tooth ache
 
