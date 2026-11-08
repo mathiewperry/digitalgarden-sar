@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/sr/suhaila-ali-mohammed-ehr/","title":["Suhaila EHR"],"hide":true,"dg-note-properties":{"related":["[[suhaila-ali-mohammed]]","[[post-category]]"],"title":["Suhaila EHR"],"created":"2025-12-22","published":null,"lastupdated":null,"author":null,"sarrating":null,"source":null,"cover":null,"note":null}}
+{"dg-publish":true,"permalink":"/sr/suhaila-ali-mohammed-ehr/","title":["Suhaila EHR"],"hide":true,"dg-note-properties":{"related":["[[suhaila-ali-mohammed]]","[[SR/asset/category/post-category]]"],"title":["Suhaila EHR"],"created":"2025-12-22","published":null,"lastupdated":null,"author":null,"sarrating":null,"source":null,"cover":null,"note":null}}
 ---
 
 
@@ -11,7 +11,7 @@
 
 ## **⏰UPCOMING**
 
-
+- [ ] 2026-11-10 5th follow up visit to Rheumatologist Dr. Mohammed. (Likely to be delayed for 20 days due to her home visit) created: : 2026-11-08
 - [x] 👨‍⚕️ 2026-08-31 Follow Up Visit to Dr. Arshad Cardiology
 - [x] 👨‍⚕️  [[2026-07-17\|2026-07-17]] 4th Visit to Dr. Mohammed (Rheumatology)
 - [x] 👨‍⚕️ [[2026-05-29\|2026-05-29]] 3rd Visit to Dr. Mohammed (Rheumatology)
@@ -111,6 +111,8 @@ Orders :
 ---
 ### 📅 Clinic Visits Log 
 
+##### 📅 2026-09-10 5️⃣th Rheumatology Dr. Mohammed Follow Up visit
+- 1️⃣ Reduced Methotrexate dosage to 0.75 cc every sunday. 2️⃣ Added  Febuxostat 40mg 1×1 for 2 Months. 3️⃣ Reduced Predinisolone instake to once every other day instead of once daily. 4️⃣ Added "tetracycline cream" No dosage noted & she was given Miconazole 2% from the pharmacist which she Did Not used for over a Month (false usage is highly likely). 
 
 ##### 📅 2026-08-31 Cardiology Dr. Arshad Follow Up Visit
 - Same Rx and Mx , No changes...
